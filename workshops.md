@@ -3,6 +3,27 @@ layout: default
 title: Workshops | FOSSASIA
 ---
 
+<style>
+#content {
+    height: 175em;
+}
+
+#side-bar {
+			display: block;
+			margin-top: 5%;
+			background-color: #EEE;
+			border-radius: 10px;
+			width: 90em;
+			width: 30%;
+			float: right;
+			height: 175em;
+}
+
+#wrapper {
+    height: 180em;
+}
+</style>
+
 #WORKSHOPS
 
 ##WEEK 1/INTRODUCTORY WORKSHOPS

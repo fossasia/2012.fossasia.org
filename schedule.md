@@ -3,6 +3,27 @@ layout: default
 title: Schedule | FOSSASIA
 ---
 
+<style>
+#content {
+    height: 317em;
+}
+
+#side-bar {
+			display: block;
+			margin-top: 5%;
+			background-color: #EEE;
+			border-radius: 10px;
+			width: 90em;
+			width: 30%;
+			float: right;
+			height: 317em;
+}
+
+#wrapper {
+    height: 322em;
+}
+</style>
+
 #Schedule
 
 ##Open Design Week 1

@@ -3,6 +3,27 @@ layout: default
 title: FOSSASIA | Open Design and Maker Weeks Asia 2011/2012
 ---
 
+<style>
+#content {
+    height: 250em;
+}
+
+#side-bar {
+			display: block;
+			margin-top: 5%;
+			background-color: #EEE;
+			border-radius: 10px;
+			width: 90em;
+			width: 30%;
+			float: right;
+			height: 250em;
+}
+
+#wrapper {
+    height: 255em;
+}
+</style>
+
 #FOSSASIA OPEN DESIGN WEEKS ASIA
 
 ![Group FOSSASIA](images/fossasia_group1.jpg "Group FOSSASIA")

@@ -3,6 +3,27 @@ layout: default
 title: Designers | FOSSASIA
 ---
 
+<style>
+#content {
+    height: 193em;
+}
+
+#side-bar {
+			display: block;
+			margin-top: 5%;
+			background-color: #EEE;
+			border-radius: 10px;
+			width: 90em;
+			width: 30%;
+			float: right;
+			height: 193em;
+}
+
+#wrapper {
+    height: 198em;
+}
+</style>
+
 #Designers
 
 Designers training participants at the Open Design Weeks come from the [Open Source Publishing Group](http://ospublish.constantvzw.org/) in Brussels.
