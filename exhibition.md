@@ -24,7 +24,7 @@ title: OPEN DESIGN EXHIBITION | FOSSASIA
 }
 </style>
 
-#OPEN DESIGN EXHIBITION
+# OPEN DESIGN EXHIBITION
 
 On Friday 7 April: Opening of the Open Design Exhibition featuring free artworks from designers across the globe.
 
@@ -36,7 +36,7 @@ Libre Graphics Artworks including Free Fonts, Posters, Comics and Books on displ
 
 Inkscape Art, Map art and Libre Art books at FOSSASIA Open Design Exhibition in Saigon
 
-##OPEN DESIGN EXHIBITION
+## OPEN DESIGN EXHIBITION
 
 Date: Friday 7 April, 2012
 

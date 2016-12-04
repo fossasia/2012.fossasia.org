@@ -24,11 +24,11 @@ title: Designers | FOSSASIA
 }
 </style>
 
-#Designers
+# Designers
 
 Designers training participants at the Open Design Weeks come from the [Open Source Publishing Group](http://ospublish.constantvzw.org/) in Brussels.
 
-##OSP
+## OSP
 
 OSP (Open Source Publishing) is an interdisciplinary and international collective based in Brussels, Belgium that uses only Free, Libre and Open Source Software (F/LOSS).
 
@@ -36,28 +36,28 @@ Since 2006, OSP tests the possibilities and realities of doing design, illustrat
 
 We realise that modifying and expanding the tools we are working with, while engaging deeper with the communities that develop them, change both our practice and the designs we are creating.
 
-##Participants
+## Participants
 
-###PIERRE MARCHAND
+### PIERRE MARCHAND
 
 [http://www.oep-h.com](http://www.oep-h.com)
 
 Pierre refuses labels: he is not a programmer, nor cartographer or artist. Or maybe he is all at once? In the last few years, Pierre contributed to the development of major Free Software projects such as the Scribus desktop publishing software. He is projectleader of FontMatrix, a font management system initiated in 2007. He works on the duo Fonzie-Nancy, a scan-to-font application that allows a font based on several "drawings" by nature and recently LiteralDraw, an application that allows the exploration of the relation between drawing and code.
 
-###ALEXANDRE LERAY + STEPHANIE VILLAYPHOU
+### ALEXANDRE LERAY + STEPHANIE VILLAYPHOU
 
 [http://www.stdin.fr](http://www.stdin.fr)
 
 '<stdin> refers to the Unix(-like) operating system standard streams, allowing commands to be chained together to produce  original programs. It shows our interest for programming, for the  GNU/Linux operating system and Free software in general. But moreover it  reflects our interest for language, and how the latter is a tension  between existing standards and new meanings. We've been trained as classical graphic designers in the Valence school of Fine ArtsFR from 2004 to 2006, where we developed a strong interest in media and writing theory. In 2009, we graduated from the MA Media Design course of the Piet Zwart Institute in RotterdamNL. We strengthen our research and theory practice along developing our programming skills to apply them to graphic design.
 
-###PIERRE HUYGHEBAERT
+### PIERRE HUYGHEBAERT
 
 [http://www.speculoos.com](http://www.speculoos.com)
 Pierre Huyghebaert studied visual communication, typography and animation. In twenty years, he developed several practices around graphic design: co-founder of the type design label Hammerfonts, free-lancer and art director in various studios, co-founder of the studio Mind The Gap in Beirut (Lebanon) in 1993 with Karl Bassil, working in duo with the illustrator/photographer/cartoon publisher Vincent Fortemps mainly for the Belgian cultural world. After founding Normal, a non-profit association, he currently drives his own studio Speculoos alongside with the book designer Alexia de Visscher. They share Speculoos as a way to express their common conceptual processes and their interest for the ready- made. They see it as a structure dedicated to the development of specialized but eclectic projects in such fields as web interface, cartography, typographical creation, schematic illustration, software development management and book design. Since 2003, Pierre also teaches book design and complex visualization projects at the Digital Arts section of La Cambre art school in Brussels. He collaborates with visual artists, including Honoré d’O, Patrick Corillon, Vincent Meessen.
 
-##RECENT WORKS BY OSP
+## RECENT WORKS BY OSP
 
-###PROJECTS AND EXHIBITIONS
+### PROJECTS AND EXHIBITIONS
 
 -Dingbats Liberation Fest 4, installlation (MakeArt Festival, Poitiers, 2010)
 
@@ -71,7 +71,7 @@ Pierre Huyghebaert studied visual communication, typography and animation. In tw
 
 -Active Archives, software experiments, workshops and events in collaboration with several European institutes (Barcelona, San Sebastian, Brussels 2007-...)
 
-###WORKSOPS, EDUCATION
+### WORKSOPS, EDUCATION
 
 -Chaîne typo-graphique ouverte, course (Ecole de recherch graphique, Brussels, 2010)
 
@@ -95,7 +95,7 @@ Pierre Huyghebaert studied visual communication, typography and animation. In tw
 
 -Print Party (Interface3 en Université Attac, Brussels, 2006)
 
-###DESIGN COMMISSIONS
+### DESIGN COMMISSIONS
 
 -Archipel, interactieve database, furniture and identity mediatheque (Brussels, 2010)
 
@@ -134,7 +134,7 @@ Uitgeverij Lannoo / BAM, Gent, 2009)
 
 -Prix Fernand Baudin, identity (2008)
 
-###PUBLICATIONS
+### PUBLICATIONS
 
 -F/LOSS in the classroom (Libre Graphics Magazine, 2010)
 
@@ -144,7 +144,7 @@ Uitgeverij Lannoo / BAM, Gent, 2009)
 
 -Weblog: [http://ospublish.constantvzw.org](http://ospublish.constantvzw.org) (2006-Present)
 
-###LECTURES AND PRESENTATIONS
+### LECTURES AND PRESENTATIONS
 
 -A frog in the range (RingVorlesung Merz Akademie Stuttgart, 2010)
 
@@ -160,7 +160,7 @@ Uitgeverij Lannoo / BAM, Gent, 2009)
 
 -Another Year of OSP (Libre Graphics Meeting: Montreal, Wroclaw, Brussels 2007 – 2010)
 
-###AWARDS
+### AWARDS
 
 -Prix Fernand Baudin 2009 (most beautiful book of Brussels and Wallonia) for Tracks in electr(on)ic fields
 
