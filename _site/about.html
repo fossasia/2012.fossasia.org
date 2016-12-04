@@ -9,7 +9,7 @@
     <title>About | FOSSASIA</title>
     <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
-    <link rel="canonical" href="http://akshattripathi.github.io/fossasia14//about.html">
+    <link rel="canonical" href="http://localhost:4000/about.html">
     <link rel="shortcut icon" href="images/fever_favicon.ico">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
@@ -268,7 +268,28 @@ a:hover {
 
     <div class="page-content">
       <div class="wrapper">
-        <h1 id="about">About</h1>
+        <style>
+#content {
+    height: 175em;
+}
+
+#side-bar {
+			display: block;
+			margin-top: 5%;
+			background-color: #EEE;
+			border-radius: 10px;
+			width: 90em;
+			width: 30%;
+			float: right;
+			height: 175em;
+}
+
+#wrapper {
+    height: 180em;
+}
+</style>
+
+<h1 id="about">About</h1>
 
 <p><img src="images/hong_profile.jpg" alt="Hong Phuc Dang" title="Hong Phuc Dang" /></p>
 
@@ -289,19 +310,19 @@ a:hover {
 
 <h2 id="sources-of-the-open-design-movement">Sources of The Open Design Movement</h2>
 
-<p>The principles of open design are derived from the <a href="http://en.wikipedia.org/wiki/Free_Software">Free Software</a> and <a href="http://en.wikipedia.org/wiki/Open_Source">open source</a> movements. In 1997 <a href="http://en.wikipedia.org/wiki/Eric_S._Raymond">Eric S. Raymond</a>, <a href="http://en.wikipedia.org/wiki/Tim_O%27Reilly">Tim O’Reilly</a> and <a href="http://en.wikipedia.org/wiki/Larry_Augustin">Larry Augustin</a> established “Open Source” as an alternative expression to “Free Software,” and in 1997 <a href="http://en.wikipedia.org/wiki/Bruce_Perens">Bruce Perens</a> published the Open Source Definition. In late 1998, Dr. Sepehr Kiani (a PhD in mechanical engineering from MIT) realized that designers could benefit from Open Source policies, and in early 1999 he convinced Dr. Ryan Vallance and Dr. Samir Nayfeh of the potential benefits of open design in machine design applications.[6]. Together they established the <a href="http://www.opendesign.org/">Open Design Foundation</a> (ODF) as a non-profit corporation, and set out to develop an Open Design Definition.</p>
+<p>The principles of open design are derived from the <a href="http://en.wikipedia.org/wiki/Free_Software">Free Software</a> and <a href="http://en.wikipedia.org/wiki/Open_Source">open source</a> movements. In 1997 <a href="http://en.wikipedia.org/wiki/Eric_S._Raymond">Eric S. Raymond</a>, <a href="http://en.wikipedia.org/wiki/Tim_O%27Reilly">Tim O’Reilly</a> and <a href="http://en.wikipedia.org/wiki/Larry_Augustin">Larry Augustin</a> established “Open Source” as an alternative expression to “Free Software,” and in 1997 [Bruce Perens](http://en.wikipedia.org/wiki/…(line truncated)…</p>
 
 <p>The idea of open design was taken up, either simultaneously or subsequently, by several other groups and individuals. The principles of open design are closely similar to those of <a href="http://en.wikipedia.org/wiki/Open_source_hardware">Open source hardware</a> design, which emerged in March 1998 when Reinoud Lamberts of the University of Delft proposed on his âOpen Design Circuitsâ website the creation of a hardware design community in the spirit of free software.</p>
 
 <h2 id="current-directories-of-the-open-design-movement">Current Directories of The Open Design Movement</h2>
 
-<p>The open design movement currently unites two trends. On the one hand, people apply their skills and time to projects for the <a href="http://en.wikipedia.org/wiki/Common_good">common good</a>, perhaps where funding or commercial interest is lacking, for <a href="http://en.wikipedia.org/wiki/Developing_country">developing countries</a> or to help to spread ecological or cheaper technologies. On the other hand, open design may provide a framework for developing very advanced projects and technologies that might be beyond the resource of any one company or country and involve people who, without the <a href="http://en.wikipedia.org/wiki/Copyleft">copyleft</a> mechanism, might not otherwise collaborate.</p>
+<p>The open design movement currently unites two trends. On the one hand, people apply their skills and time to projects for the <a href="http://en.wikipedia.org/wiki/Common_good">common good</a>, perhaps where funding or commercial interest is lacking, for <a href="http://en.wikipedia.org/wiki/Developing_country">developing countries</a> or to help to spread ecological or cheaper technologies. On the other hand, open design may provide a framework for developing very advanced projects and technologies that might be beyond the reso…(line truncated)…</p>
 
 <h2 id="open-machine-design-as-compared-to-open-source-software">Open Machine Design As Compared To Open-Source Software</h2>
 
 <p>The “open design” movement is currently fairly nascent but holds great potential for the future. In some respects design and engineering are even more suited to open collaborative development than the increasingly common open-source software projects, because with 3D models and photographs the concept can often be understood visually. It is not even necessary that the project members speak the same languages to usefully collaborate.</p>
 
-<p>However there are certain barriers to overcome for open design when compared to software development where there are mature and widely used tools available and the duplication and distribution of code cost next to nothing. Creating, testing and modifying physical designs is not quite so straightforward because of the effort, time and cost required to create the physical artefact; although with access to emerging flexible computer-controlled manufacturing techniques the complexity and effort of construction can be significantly reduced (see tools mentioned in the <a href="http://en.wikipedia.org/wiki/Fab_lab">fab lab</a> article).</p>
+<p>However there are certain barriers to overcome for open design when compared to software development where there are mature and widely used tools available and the duplication and distribution of code cost next to nothing. Creating, testing and modifying physical designs is not quite so straightforward because of the effort, time and cost required to create the physical artefact; although with access to emerging flexible computer-controlled manufacturing techniques the complexity and effort of construction …(line truncated)…</p>
 
       </div>
     </div>
@@ -321,17 +342,6 @@ a:hover {
 			background: linear-gradient(to bottom,  rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%); /* W3C */
 			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=0 ); /* IE6-9 */
 			margin-top: 7%;
-		}
-
-		#side-bar {
-			display: block;
-			margin-top: 5%;
-			background-color: #EEE;
-			border-radius: 10px;
-			width: 90em;
-			width: 30%;
-			float: right;
-			height: 285em;
 		}
 
 		h1 {
@@ -501,6 +511,7 @@ a:hover {
 		<a href="http://www.flickr.com/search/?q=opendesignweeksasia&m=tags"><img class="flickr-image" src="images/footer_images/5.jpg"></a>
 		<a href="http://www.flickr.com/search/?q=opendesignweeksasia&m=tags"><img class="flickr-image" src="images/footer_images/6.jpg"></a>
 	</div>
+
     	<br>
 	<p><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/de/" target="_blank">Creative Commons Attribution-Noncommercial-Share Alike Lizenz</a>  |  WebSite <a href="http://mbm.asia/">MBM</a></p>
 	</div>

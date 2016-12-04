@@ -24,7 +24,7 @@ title: FOSSASIA | Open Design and Maker Weeks Asia 2011/2012
 }
 </style>
 
-#FOSSASIA OPEN DESIGN WEEKS ASIA
+# FOSSASIA OPEN DESIGN WEEKS ASIA
 
 ![Group FOSSASIA](images/fossasia_group1.jpg "Group FOSSASIA")
 
@@ -46,7 +46,7 @@ The intensive workshops with International designers and typographers focus on c
 
 The workshops were held at at the University of Arts and Design in Ho Chi Minh City and the [CanTho Mekong Hotel Xoai](http://hotelxoai.com/).
 
-Please join us on [Facebook](https://facebook.com/OpenDesignAsia) and follow us on [twitter](https://twitter.com/opdasia). 
+Please join us on [Facebook](https://facebook.com/OpenDesignAsia) and follow us on [twitter](https://twitter.com/opdasia).
 
 ![Dinner](images/dinner.jpg "Dinner")
 
