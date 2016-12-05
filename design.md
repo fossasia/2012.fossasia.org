@@ -24,13 +24,13 @@ title: DESIGN AND MAKER CAMPS | FOSSASIA
 }
 </style>
 
-#DESIGN AND MAKER CAMPS
+# DESIGN AND MAKER CAMPS
 
 Two Open Design Camps offers designers, artists and developers a chance to share ideas, concepts and tools in Ho Chi Minh City and Cantho City.
 
 ![Group1](images/group1.jpg "Group1")
 
-##OPEN DESIGN CAMP SAIGON
+## OPEN DESIGN CAMP SAIGON
 
 Public presentations of design work, ideas and software used in todays Free Culture community and ideas for sharing.
 
@@ -47,7 +47,7 @@ Admission: Free
 
 [View Larger Map](https://www.google.com/maps?f=q&source=embed&hl=en&geocode&q=University+of+Fine+Arts,+05+Phan+Dang+Luu,+Dist.+Binh+Thanh,+Ho+Chi+Minh+City,+Vietnam&ie=UTF8&hq&hnear=Phan+%C4%90%C4%83ng+L%C6%B0u,+Ho+Chi+Minh+City,+Vietnam&ll=10.804558,106.687589&spn=0.012646,0.025792&z=15)
 
-##MAKER CAMP CANTHO
+## MAKER CAMP CANTHO
 
 Public presentations of design work, ideas and software produced during the Open Design Weeks 2012 Vietnam.
 

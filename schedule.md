@@ -24,19 +24,19 @@ title: Schedule | FOSSASIA
 }
 </style>
 
-#Schedule
+# Schedule
 
-##Open Design Week 1
+## Open Design Week 1
 
 *April 2-9, 2012, Ho Chi Minh City (Saigon)*
 
 The first week will give Vietnamese designers in Ho Chi Minh City the opportunity to get to know and learn from international designers from Europe. International visitors will meet up with companies and students in universities. Three introduction workshops will offer local designers the chance to dig into new design concepts and learn about new Open Source software tools used in todays European art and design scene. These workshops are a preparation for the second intensive work week. At the end of the week an exhibition dedicated to Open Design will be opened.
 
-####Audience
+#### Audience
 
 Designers, university lecturers, students, artists, local open source communities.
 
-####Goals
+#### Goals
 
 -introducing new design tools, software and practices at presentations across universities and companies in HCM
 
@@ -143,17 +143,17 @@ Designers, university lecturers, students, artists, local open source communitie
 
 ![Working](images/working.jpg "Working")
 
-##Open Design Week 2
+## Open Design Week 2
 
 *Can Tho City, 11-16 April, 2012*
 
 The second week is set up around two intensive design workshops in Cantho City addressing themes and methods linked to interdisciplinary work with new software tools including content publication, mapping and professional font design. Tools taught include Inkscape, Gimp, OpenStreetMap, Fontforge, GIT/SVN, FontMatrix, Fonzy/Nancy and ConTeXT. Each workshop runs for two days. Participants of the workshops will contribute as active collaborators and learn by hands on experience from the five European designers. The outcome of workshops will be presented during the Design Camp Cantho at the end of the week.
 
-####Audience
+#### Audience
 
 Students, amateurs and professionals with a design/art background or in computer science/software development. Participants are willing to engage in interdisciplinary experimentation and creative production. Each workshop has max. 20 participants. Scholarships are available.
 
-####Goals
+#### Goals
 
 -learning together with others about new design tools and ideas
 

@@ -24,9 +24,9 @@ title: Workshops | FOSSASIA
 }
 </style>
 
-#WORKSHOPS
+# WORKSHOPS
 
-##WEEK 1/INTRODUCTORY WORKSHOPS
+## WEEK 1/INTRODUCTORY WORKSHOPS
 
 *3/4/5 April, Ho Chi Minh City*
 
@@ -38,7 +38,7 @@ Teaching Designers: Pierre Marchand, Femke Snelting, Alexandre Leray, Stephanie 
 
 Workshop 1: Fonts   
 
-Workshop 2: Vector illustration 
+Workshop 2: Vector illustration
 
 Workshop 3: Lay-out
 
@@ -48,7 +48,7 @@ Time: Morning 9am-12pm, Afternoon 2-5pm
 
 Place of workshop: University Ho Chi Minh City (tbd)
 
-##WEEK 1/WORKSHOPS AT COMPANIES AND UNIVERSITIES
+## WEEK 1/WORKSHOPS AT COMPANIES AND UNIVERSITIES
 
 *6 April, Ho Chi Minh City*
 
@@ -63,7 +63,7 @@ Wednesday, 6 April: Workshop Sessions / Visit to Designer Labs and companies in 
 Contact for Interested Companies and Universities
 Companies and universities interested in meetings with International designers please contact Dang, Hong Phuc.
 
-##WEEK 2/WORKSHOP 1: FONT DESIGN (TYPOGRAPHY)
+## WEEK 2/WORKSHOP 1: FONT DESIGN (TYPOGRAPHY)
 
 *12-15 April, Cantho City*
 
@@ -87,7 +87,7 @@ Included: Workshop facilities, Internet, software, work place, lunch, coffee sna
 
 Cover fee required
 
-##WEEK2/WORKSHOP 2: COLLABORATIVE PUBLICATION
+## WEEK2/WORKSHOP 2: COLLABORATIVE PUBLICATION
 
 *11-14 April, Cantho City*
 

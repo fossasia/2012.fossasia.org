@@ -9,3 +9,8 @@ url: "http://akshattripathi.github.io/fossasia12/" # the base hostname & protoco
 
 # Build settings
 markdown: kramdown
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
