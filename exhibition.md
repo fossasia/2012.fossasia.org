@@ -3,27 +3,6 @@ layout: default
 title: OPEN DESIGN EXHIBITION | FOSSASIA
 ---
 
-<style>
-#content {
-    height: 175em;
-}
-
-#side-bar {
-			display: block;
-			margin-top: 5%;
-			background-color: #EEE;
-			border-radius: 10px;
-			width: 90em;
-			width: 30%;
-			float: right;
-			height: 175em;
-}
-
-#wrapper {
-    height: 180em;
-}
-</style>
-
 # OPEN DESIGN EXHIBITION
 
 On Friday 7 April: Opening of the Open Design Exhibition featuring free artworks from designers across the globe.

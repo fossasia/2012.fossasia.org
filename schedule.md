@@ -3,28 +3,7 @@ layout: default
 title: Schedule | FOSSASIA
 ---
 
-<style>
-#content {
-    height: 317em;
-}
-
-#side-bar {
-			display: block;
-			margin-top: 5%;
-			background-color: #EEE;
-			border-radius: 10px;
-			width: 90em;
-			width: 30%;
-			float: right;
-			height: 317em;
-}
-
-#wrapper {
-    height: 322em;
-}
-</style>
-
-# Schedule
+# SCHEDULE
 
 ## Open Design Week 1
 
@@ -32,11 +11,11 @@ title: Schedule | FOSSASIA
 
 The first week will give Vietnamese designers in Ho Chi Minh City the opportunity to get to know and learn from international designers from Europe. International visitors will meet up with companies and students in universities. Three introduction workshops will offer local designers the chance to dig into new design concepts and learn about new Open Source software tools used in todays European art and design scene. These workshops are a preparation for the second intensive work week. At the end of the week an exhibition dedicated to Open Design will be opened.
 
-#### Audience
+### Audience
 
 Designers, university lecturers, students, artists, local open source communities.
 
-#### Goals
+### Goals
 
 -introducing new design tools, software and practices at presentations across universities and companies in HCM
 
@@ -47,13 +26,36 @@ Designers, university lecturers, students, artists, local open source communitie
 ![Speaking](images/speaking.jpg "Speaking")
 
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 10px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 10px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg .tg-s6z2{text-align:center}
-.tg .tg-jq4u{font-weight:bold;background-color:#ffffff;text-align:center}
-.tg .tg-zlxb{background-color:#ffffff;text-align:center}
+.tg  {
+      border-collapse:collapse;
+      border-spacing:0;
+}
+.tg td {
+      font-size:14px;
+      padding:10px 10px;
+      overflow:hidden;
+      word-break:normal;
+}
+.tg th {
+      font-size:14px;
+      font-weight:normal;
+      padding:10px 10px;
+      overflow:hidden;
+      word-break:normal;
+}
+.tg .tg-s6z2 {
+      text-align:center
+}
+.tg .tg-jq4u {
+      font-weight:bold;
+      background-color:#ffffff;
+      text-align:center
+}
+.tg .tg-zlxb {
+      background-color:#ffffff;
+}
 </style>
+<div class="table-div">
 <table class="tg" style="undefined;table-layout: fixed; width: 777px">
 <colgroup>
 <col style="width: 111.19999998807907px">
@@ -140,6 +142,7 @@ Designers, university lecturers, students, artists, local open source communitie
     <td class="tg-s6z2"></td>
   </tr>
 </table>
+</div>
 
 ![Working](images/working.jpg "Working")
 
@@ -149,11 +152,11 @@ Designers, university lecturers, students, artists, local open source communitie
 
 The second week is set up around two intensive design workshops in Cantho City addressing themes and methods linked to interdisciplinary work with new software tools including content publication, mapping and professional font design. Tools taught include Inkscape, Gimp, OpenStreetMap, Fontforge, GIT/SVN, FontMatrix, Fonzy/Nancy and ConTeXT. Each workshop runs for two days. Participants of the workshops will contribute as active collaborators and learn by hands on experience from the five European designers. The outcome of workshops will be presented during the Design Camp Cantho at the end of the week.
 
-#### Audience
+### Audience
 
 Students, amateurs and professionals with a design/art background or in computer science/software development. Participants are willing to engage in interdisciplinary experimentation and creative production. Each workshop has max. 20 participants. Scholarships are available.
 
-#### Goals
+### Goals
 
 -learning together with others about new design tools and ideas
 
@@ -169,13 +172,36 @@ Students, amateurs and professionals with a design/art background or in computer
 ![FOSSASIA Group](images/fossasia_group5.jpg "FOSSASIA Group")
 
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 10px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 10px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg .tg-s6z2{text-align:center}
-.tg .tg-jq4u{font-weight:bold;background-color:#ffffff;text-align:center}
-.tg .tg-zlxb{background-color:#ffffff;text-align:center}
+.tg  {
+      border-collapse:collapse;
+      border-spacing:0;
+}
+.tg td {
+      font-size:14px;
+      padding:10px 10px;
+      overflow:hidden;
+      word-break:normal;
+}
+.tg th {
+      font-size:14px;
+      font-weight:normal;
+      padding:10px 10px;
+      overflow:hidden;
+      word-break:normal;
+}
+.tg .tg-s6z2 {
+      text-align:center
+}
+.tg .tg-jq4u {
+      font-weight:bold;
+      background-color:#ffffff;
+      text-align:center
+}
+.tg .tg-zlxb {
+      background-color:#ffffff;
+}
 </style>
+<div class="table-div">
 <table class="tg" style="undefined;table-layout: fixed; width: 772px">
 <colgroup>
 <col style="width: 110.19999998807907px">
@@ -241,3 +267,4 @@ Students, amateurs and professionals with a design/art background or in computer
     <td class="tg-s6z2"></td>
   </tr>
 </table>
+</div>
