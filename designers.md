@@ -3,28 +3,7 @@ layout: default
 title: Designers | FOSSASIA
 ---
 
-<style>
-#content {
-    height: 193em;
-}
-
-#side-bar {
-			display: block;
-			margin-top: 5%;
-			background-color: #EEE;
-			border-radius: 10px;
-			width: 90em;
-			width: 30%;
-			float: right;
-			height: 193em;
-}
-
-#wrapper {
-    height: 198em;
-}
-</style>
-
-# Designers
+# DESIGNERS
 
 Designers training participants at the Open Design Weeks come from the [Open Source Publishing Group](http://ospublish.constantvzw.org/) in Brussels.
 
@@ -71,7 +50,7 @@ Pierre Huyghebaert studied visual communication, typography and animation. In tw
 
 -Active Archives, software experiments, workshops and events in collaboration with several European institutes (Barcelona, San Sebastian, Brussels 2007-...)
 
-### WORKSOPS, EDUCATION
+### WORKSHOPS, EDUCATION
 
 -Chaîne typo-graphique ouverte, course (Ecole de recherch graphique, Brussels, 2010)
 
@@ -79,9 +58,9 @@ Pierre Huyghebaert studied visual communication, typography and animation. In tw
 
 -ABC, Workshop (De Pianofabriek, Brussels, 2010)
 
--Please Computer | Make Me Design 2, workshop (Interface 3, Brussels, 2010)
+-Please Computer : Make Me Design 2, workshop (Interface 3, Brussels, 2010)
 
--Please Computer | Make Me Design, workshop (ESAPV Mons, 2010)
+-Please Computer : Make Me Design, workshop (ESAPV Mons, 2010)
 
 -Dingbats Liberation Fest, workshop (Zennestraat 17, Brussel, 2009)
 

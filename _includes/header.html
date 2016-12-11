@@ -1,13 +1,10 @@
-<body>
 <style>
 html, body {
     min-height: 100% !important;
     height: 100%;
+    background-color: #EEE;
+    margin: 0px;
 }
-nav {
-	margin-left: 1%;
-}
-
 ::selection {
 	color: #FFF;
 	background-color: #33CCFF;
@@ -35,38 +32,53 @@ nav {
 
 img {
 	display: block;
-	width: 95%;
-	margin: 0 auto;
+	width: 100%;
+	margin: 0;
 	margin-top: 3%;
 }
 
+h1 {
+      font-family: 'Open Sans';
+      font-weight: 400;
+      color: #333333;
+      padding: 20px;
+}
 h2 {
-	font-family: 'Droid Sans';
-	text-align: center;
+      font-family: 'Open Sans';
+      color: #333333;
+      text-align: center;
+      padding: 10px;
 }
 
 h3 {
 	text-align: left;
 	font-family: 'Droid Sans';
+      color: #333333;
 }
 
 p {
-	font-family: "Times New Roman", Times, serif;
+	font-family: "Open Sans", sans-serif;
+      color: #777777;
 }
 
-/*Strip the ul of padding and list styling*/
-ul {
+/*Strip the ul of padding and list styling and add shadow*/
+#menu {
 	list-style-type:none;
 	margin: 0 auto;
-	padding: 0;
-	position: absolute;
+	padding: 0 25px 0 25px;
+	position: fixed;
+      width: 100%;
+      background: #2f3036;
+      box-sizing: border-box;
 }
 
 /*Create a horizontal list with spacing*/
 li {
 	display:inline-block;
-	float: left;
-	margin-right: 1px;
+	float: right;
+}
+#home-link {
+      float: left;
 }
 
 /*Style for menu links*/
@@ -76,7 +88,7 @@ li a {
 	height: 50px;
 	text-align: center;
 	line-height: 50px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	color: #fff;
 	background: #2f3036;
 	text-decoration: none;
@@ -88,7 +100,7 @@ li:hover a {
 }
 
 /*Style for dropdown links*/
-li:hover ul a {
+li:hover #menu a {
 	background: #f3f3f3;
 	color: #2f3036;
 	height: 40px;
@@ -96,31 +108,31 @@ li:hover ul a {
 }
 
 /*Hover state for dropdown links*/
-li:hover ul a:hover {
+li:hover #menu a:hover {
 	background: #19c589;
 	color: #fff;
 }
 
 /*Hide dropdown links until they are needed*/
-li ul {
+li #menu {
 	display: none;
 }
 
 /*Make dropdown links vertical*/
-li ul li {
+li #menu li {
 	display: block;
 	float: none;
 }
 
 /*Prevent text wrapping*/
-li ul li a {
+li #menu li a {
 	width: auto;
 	min-width: 100px;
 	padding: 0 20px;
 }
 
 /*Display the dropdown on hover*/
-ul li a:hover + .hidden, .hidden:hover {
+#menu li a:hover + .hidden, .hidden:hover {
 	display: block;
 }
 
@@ -147,31 +159,44 @@ input[type=checkbox]:checked ~ #menu{
 }
 
 #wrapper {
-	width: 80em;
-	height: 290em;
+	width: 70em;
 	margin: 0 auto;
 	max-width: 90%;
-	border-radius: 10px;
-	box-shadow: inset 4px 4px 20px 2px #787878;
-	padding: 1em 1em 1em 1em;
+      background: white;
+      overflow: auto;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 #content {
 	border-radius: 10px;
 	display: block;
+      margin: 65px;
 	margin-top: 5%;
-	background-color: #EEE;
-	width: 90em;
-	width: 65%;
+	width: 58%;
 	float: left;
-	height: 285em;
 }
 
+.table-div {
+      overflow-x: scroll;
+      border: 1px solid lightgrey;
+}
+.table-div th {
+      font-family: Open Sans, sans-serif;
+      border: none;
+      border-bottom: 2px solid grey;
+
+}
+.table-div td {
+      border: none;
+      border-bottom: 1px solid grey;
+      text-align: left;
+      font-family: Open-Sans, sans-serif;
+}
 /*Responsive Styles*/
 
 @media screen and (min-width: 20px) and (max-width : 760px){
 	/*Make dropdown links appear inline*/
-	ul {
+	#menu {
 		position: static;
 		display: none;
 	}
@@ -180,7 +205,7 @@ input[type=checkbox]:checked ~ #menu{
 		margin-bottom: 1px;
 	}
 	/*Make all menu links full width*/
-	ul li, li a {
+	#menu li, li a {
 		width: 100%;
 	}
 	/*Display 'show menu' link*/
@@ -226,22 +251,22 @@ a:hover {
 }
 
 	</style>
-<div id="wrapper">
 <header>
 	<nav>
 	<label for="show-menu" class="show-menu">Show Menu</label>
 	<input type="checkbox" id="show-menu" role="button">
 	<ul id="menu">
-		<li><a href="index.html">Home</a></li>
-		<li><a href="http://fossasia.org/">FOSSASIA 2015</a></li>
-		<li><a href="about.html">About</a></li>
-		<li><a href="schedule.html">Schedule</a></li>
-		<li><a href="designers.html">Designers</a></li>
-		<li><a href="workshops.html">Workshops</a></li>
-		<li><a href="design.html">Design &amp; Camps</a></li>
-		<li><a href="exhibition.html">Exhibition</a></li>
+		<li id="home-link"><a href="index.html">Home</a></li>
 		<li><a href="http://2014.fossasia.org/"> FOSSASIA '14</a></li>
+            <li><a href="exhibition.html">Exhibition</a></li>
+            <li><a href="design.html">Design &amp; Camps</a></li>
+            <li><a href="workshops.html">Workshops</a></li>
+            <li><a href="designers.html">Designers</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="http://fossasia.org/">FOSSASIA 2015</a></li>
 	</ul>
 	</nav>
 </header>
+<div id="wrapper">
 <div id="content">

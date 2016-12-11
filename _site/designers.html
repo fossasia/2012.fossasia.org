@@ -9,25 +9,24 @@
     <title>Designers | FOSSASIA</title>
     <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
-    <link rel="canonical" href="http://akshattripathi.github.io/fossasia14/designers.html">
+    <link rel="canonical" href="http://localhost:4000/designers.html">
     <link rel="shortcut icon" href="images/fever_favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
 </head>
 
+
   <body>
 
-    <body>
-<style>
+    <style>
 html, body {
     min-height: 100% !important;
     height: 100%;
+    background-color: #EEE;
+    margin: 0px;
 }
-nav {
-	margin-left: 1%;
-}
-
 ::selection {
 	color: #FFF;
 	background-color: #33CCFF;
@@ -55,38 +54,53 @@ nav {
 
 img {
 	display: block;
-	width: 95%;
-	margin: 0 auto;
+	width: 100%;
+	margin: 0;
 	margin-top: 3%;
 }
 
+h1 {
+      font-family: 'Open Sans';
+      font-weight: 400;
+      color: #333333;
+      padding: 20px;
+}
 h2 {
-	font-family: 'Droid Sans';
-	text-align: center;
+      font-family: 'Open Sans';
+      color: #333333;
+      text-align: center;
+      padding: 10px;
 }
 
 h3 {
 	text-align: left;
 	font-family: 'Droid Sans';
+      color: #333333;
 }
 
 p {
-	font-family: "Times New Roman", Times, serif;
+	font-family: "Open Sans", sans-serif;
+      color: #777777;
 }
 
-/*Strip the ul of padding and list styling*/
-ul {
+/*Strip the ul of padding and list styling and add shadow*/
+#menu {
 	list-style-type:none;
 	margin: 0 auto;
-	padding: 0;
-	position: absolute;
+	padding: 0 25px 0 25px;
+	position: fixed;
+      width: 100%;
+      background: #2f3036;
+      box-sizing: border-box;
 }
 
 /*Create a horizontal list with spacing*/
 li {
 	display:inline-block;
-	float: left;
-	margin-right: 1px;
+	float: right;
+}
+#home-link {
+      float: left;
 }
 
 /*Style for menu links*/
@@ -96,7 +110,7 @@ li a {
 	height: 50px;
 	text-align: center;
 	line-height: 50px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	color: #fff;
 	background: #2f3036;
 	text-decoration: none;
@@ -108,7 +122,7 @@ li:hover a {
 }
 
 /*Style for dropdown links*/
-li:hover ul a {
+li:hover #menu a {
 	background: #f3f3f3;
 	color: #2f3036;
 	height: 40px;
@@ -116,31 +130,31 @@ li:hover ul a {
 }
 
 /*Hover state for dropdown links*/
-li:hover ul a:hover {
+li:hover #menu a:hover {
 	background: #19c589;
 	color: #fff;
 }
 
 /*Hide dropdown links until they are needed*/
-li ul {
+li #menu {
 	display: none;
 }
 
 /*Make dropdown links vertical*/
-li ul li {
+li #menu li {
 	display: block;
 	float: none;
 }
 
 /*Prevent text wrapping*/
-li ul li a {
+li #menu li a {
 	width: auto;
 	min-width: 100px;
 	padding: 0 20px;
 }
 
 /*Display the dropdown on hover*/
-ul li a:hover + .hidden, .hidden:hover {
+#menu li a:hover + .hidden, .hidden:hover {
 	display: block;
 }
 
@@ -167,31 +181,44 @@ input[type=checkbox]:checked ~ #menu{
 }
 
 #wrapper {
-	width: 80em;
-	height: 290em;
+	width: 70em;
 	margin: 0 auto;
 	max-width: 90%;
-	border-radius: 10px;
-	box-shadow: inset 4px 4px 20px 2px #787878;
-	padding: 1em 1em 1em 1em;
+      background: white;
+      overflow: auto;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 #content {
 	border-radius: 10px;
 	display: block;
+      margin: 65px;
 	margin-top: 5%;
-	background-color: #EEE;
-	width: 90em;
-	width: 65%;
+	width: 58%;
 	float: left;
-	height: 285em;
 }
 
+.table-div {
+      overflow-x: scroll;
+      border: 1px solid lightgrey;
+}
+.table-div th {
+      font-family: Open Sans, sans-serif;
+      border: none;
+      border-bottom: 2px solid grey;
+
+}
+.table-div td {
+      border: none;
+      border-bottom: 1px solid grey;
+      text-align: left;
+      font-family: Open-Sans, sans-serif;
+}
 /*Responsive Styles*/
 
 @media screen and (min-width: 20px) and (max-width : 760px){
 	/*Make dropdown links appear inline*/
-	ul {
+	#menu {
 		position: static;
 		display: none;
 	}
@@ -200,7 +227,7 @@ input[type=checkbox]:checked ~ #menu{
 		margin-bottom: 1px;
 	}
 	/*Make all menu links full width*/
-	ul li, li a {
+	#menu li, li a {
 		width: 100%;
 	}
 	/*Display 'show menu' link*/
@@ -246,50 +273,30 @@ a:hover {
 }
 
 	</style>
-<div id="wrapper">
 <header>
 	<nav>
 	<label for="show-menu" class="show-menu">Show Menu</label>
 	<input type="checkbox" id="show-menu" role="button">
 	<ul id="menu">
-		<li><a href="index.html">Home</a></li>
-		<li><a href="http://fossasia.org/">FOSSASIA 2015</a></li>
-		<li><a href="about.html">About</a></li>
-		<li><a href="schedule.html">Schedule</a></li>
-		<li><a href="designers.html">Designers</a></li>
-		<li><a href="workshops.html">Workshops</a></li>
-		<li><a href="design.html">Design &amp; Camps</a></li>
-		<li><a href="exhibition.html">Exhibition</a></li>
+		<li id="home-link"><a href="index.html">Home</a></li>
 		<li><a href="http://2014.fossasia.org/"> FOSSASIA '14</a></li>
+            <li><a href="exhibition.html">Exhibition</a></li>
+            <li><a href="design.html">Design &amp; Camps</a></li>
+            <li><a href="workshops.html">Workshops</a></li>
+            <li><a href="designers.html">Designers</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="http://fossasia.org/">FOSSASIA 2015</a></li>
 	</ul>
 	</nav>
 </header>
+<div id="wrapper">
 <div id="content">
+
 
     <div class="page-content">
       <div class="wrapper">
-        <style>
-#content {
-    height: 193em;
-}
-
-#side-bar {
-			display: block;
-			margin-top: 5%;
-			background-color: #EEE;
-			border-radius: 10px;
-			width: 90em;
-			width: 30%;
-			float: right;
-			height: 193em;
-}
-
-#wrapper {
-    height: 198em;
-}
-</style>
-
-<h1 id="designers">Designers</h1>
+        <h1 id="designers">DESIGNERS</h1>
 
 <p>Designers training participants at the Open Design Weeks come from the <a href="http://ospublish.constantvzw.org/">Open Source Publishing Group</a> in Brussels.</p>
 
@@ -336,7 +343,7 @@ Pierre Huyghebaert studied visual communication, typography and animation. In tw
 
 <p>-Active Archives, software experiments, workshops and events in collaboration with several European institutes (Barcelona, San Sebastian, Brussels 2007-…)</p>
 
-<h3 id="worksops-education">WORKSOPS, EDUCATION</h3>
+<h3 id="workshops-education">WORKSHOPS, EDUCATION</h3>
 
 <p>-Chaîne typo-graphique ouverte, course (Ecole de recherch graphique, Brussels, 2010)</p>
 
@@ -344,23 +351,9 @@ Pierre Huyghebaert studied visual communication, typography and animation. In tw
 
 <p>-ABC, Workshop (De Pianofabriek, Brussels, 2010)</p>
 
-<table>
-  <tbody>
-    <tr>
-      <td>-Please Computer</td>
-      <td>Make Me Design 2, workshop (Interface 3, Brussels, 2010)</td>
-    </tr>
-  </tbody>
-</table>
+<p>-Please Computer : Make Me Design 2, workshop (Interface 3, Brussels, 2010)</p>
 
-<table>
-  <tbody>
-    <tr>
-      <td>-Please Computer</td>
-      <td>Make Me Design, workshop (ESAPV Mons, 2010)</td>
-    </tr>
-  </tbody>
-</table>
+<p>-Please Computer : Make Me Design, workshop (ESAPV Mons, 2010)</p>
 
 <p>-Dingbats Liberation Fest, workshop (Zennestraat 17, Brussel, 2009)</p>
 
@@ -449,50 +442,31 @@ Uitgeverij Lannoo / BAM, Gent, 2009)</p>
     </div>
     	</div>
 	<style>
+
+		#side-bar {
+					display: block;
+					margin-top: 10%;
+					width: 325px;
+					float: right;
+					padding-right: 10px;
+		}
+
+		hr {
+			margin-top: 40px;
+			color: rgba(00,000,000,0.12);
+		}
 		#side-bar h1 {
 			display: block;
 			margin: 0 auto;
 			text-align: center;
-			color: #EEE;
-			background: rgb(0,183,234); /* Old browsers */
-			background: -moz-linear-gradient(top,  rgba(0,183,234,1) 0%, rgba(0,158,195,1) 100%); /* FF3.6+ */
-			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,183,234,1)), color-stop(100%,rgba(0,158,195,1))); /* Chrome,Safari4+ */
-			background: -webkit-linear-gradient(top,  rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%); /* Chrome10+,Safari5.1+ */
-			background: -o-linear-gradient(top,  rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%); /* Opera 11.10+ */
-			background: -ms-linear-gradient(top,  rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%); /* IE10+ */
-			background: linear-gradient(to bottom,  rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%); /* W3C */
-			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=0 ); /* IE6-9 */
-			margin-top: 7%;
+			color: #2f3036;
+			padding: 20px;margin-top: 7%;
 		}
-
-		h1 {
-			font-family: 'Open Sans Condensed';
-			font-weight: normal;
-		}
-
-		#side-bar h1 {
-			font-family: 'Lobster';
-			color: #DDD;
-		}
-
 		#side-bar .sponsor {
 			display: block;
 			width: 70%;
 			margin: 0 auto;
 			margin-top: 5%;
-			-webkit-box-shadow: 10px 0px 42px -10px rgba(84,146,168,1);
-			-moz-box-shadow: 10px 0px 42px -10px rgba(84,146,168,1);
-			box-shadow: 10px 0px 42px -10px rgba(84,146,168,1);
-			padding-bottom: 3%;
-			transition: 0.4s;
-			-webkit-transition: 0.4s;
-			-moz-transition: 0.4s;
-		}
-
-		#side-bar .sponsor:hover {
-			-webkit-box-shadow: 10px 0px 42px 0px rgba(84,146,168,1);
-			-moz-box-shadow: 10px 0px 42px 0px rgba(84,146,168,1);
-			box-shadow: 10px 0px 42px 0px rgba(84,146,168,1);
 		}
 
 		#mc_embed_signup form {
@@ -513,7 +487,7 @@ Uitgeverij Lannoo / BAM, Gent, 2009)</p>
 			margin-top: 5%;
 			font: 14px Arial, Helvetica,Arial,sans-serif;
 			letter-spacing: 1px;
-			border-radius: 5px;
+			/*border-radius: 5px;*/
 			padding-left: 5px;
 			margin: 0 auto;
 			width: 90%;
@@ -523,12 +497,20 @@ Uitgeverij Lannoo / BAM, Gent, 2009)</p>
 		#mc-embedded-subscribe {
 			display: block;
 			margin: 0 auto;
-			width: 60%;
-			height: 30px;
+			width: 300px;
+			height: 40px;
 			margin-top: 5%;
-			transition: 0.5s;
-			-webkit-transition: 0.5s;
-			-moz-transition: 0.5s;
+			border: none;
+			font: 16px Open Sans;
+			color: white;
+			background: rgb(0,183,234); /* Old browsers */
+			background: -moz-linear-gradient(top,  rgba(0,183,234,1) 0%, rgba(0,158,195,1) 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,183,234,1)), color-stop(100%,rgba(0,158,195,1))); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top,  rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top,  rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(top,  rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%); /* IE10+ */
+			background: linear-gradient(to bottom,  rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%); /* W3C */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=0 ); /* IE6-9 */
 		}
 
 		#mc-embedded-subscribe:hover {
@@ -575,13 +557,23 @@ Uitgeverij Lannoo / BAM, Gent, 2009)</p>
 	display: block;
 	text-decoration: none;
 	margin: 0 auto;
+	font-family: Open Sans, sans-serif;
 }
 
-.flickr-image {
+#hotel {
+	margin-bottom: 20px !important;
+}
+.flickr-div {
+	overflow: hidden;
 	float: left;
 	height: 100px;
 	margin-left: 2%;
+	margin-bottom: 2%;
 	width: 30%;
+}
+.flickr-image {
+	height: 100%;
+	width: auto;
 }
 	</style>
 	<div id="side-bar">
@@ -595,6 +587,7 @@ Uitgeverij Lannoo / BAM, Gent, 2009)</p>
 		<a href="http://idesign.vn/" target="_blank"><img class="sponsor" src="images/side_images/idesign.jpg"></a>
 		<a href="http://www.trungnguyen.com.vn/index.aspx" target="_blank"><img class="sponsor" src="images/side_images/trung.jpg"></a>
 
+		<hr>
 
 		<h1>FOSSASIA Updates</h1>
 		<form action="//fossasia.us9.list-manage.com/subscribe/post?u=d5cf526b4ceea238da3512fb3&amp;id=2be821d83b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
@@ -607,8 +600,10 @@ Uitgeverij Lannoo / BAM, Gent, 2009)</p>
     		</div>
 		</form>
 
+		<hr>
+
 		<h1>Cantho Hotel Partner</h1>
-		<a href="http://hotelxoai.com/" target="_blank"><img class="sponsor" src="images/side_images/xoai-mini-hotel.png"></a>
+		<a href="http://hotelxoai.com/" target="_blank"><img class="sponsor" id="hotel" src="images/side_images/xoai-mini-hotel.png"></a>
 
 
 		<a class="friends-href" href="http://fossasia.org/" target="_blank">FOSSASIA</a><br>
@@ -622,23 +617,27 @@ Uitgeverij Lannoo / BAM, Gent, 2009)</p>
 		<a class="friends-href" href="http://opentechsummit.net/" target="_blank">OpenXLab</a><br>
 		<a class="friends-href" href="http://hackerspace.sg/" target="_blank">Hackerspace.sg</a><br>
 		<a class="friends-href" href="http://mekongtours.info/" target="_blank">Mekong Tours Fair Travel</a><br>
-		<br>
+
+		<hr>
 
 		<h1>Flickr</h1>
-		<a href="http://www.flickr.com/search/?q=opendesignweeksasia&m=tags"><img class="flickr-image" src="images/footer_images/1.jpg"></a>
-		<a href="http://www.flickr.com/search/?q=opendesignweeksasia&m=tags"><img class="flickr-image" src="images/footer_images/2.jpg"></a>
-		<a href="http://www.flickr.com/search/?q=opendesignweeksasia&m=tags"><img class="flickr-image" src="images/footer_images/3.jpg"></a>
-		<a href="http://www.flickr.com/search/?q=opendesignweeksasia&m=tags"><img class="flickr-image" src="images/footer_images/4.jpg"></a>
-		<a href="http://www.flickr.com/search/?q=opendesignweeksasia&m=tags"><img class="flickr-image" src="images/footer_images/5.jpg"></a>
-		<a href="http://www.flickr.com/search/?q=opendesignweeksasia&m=tags"><img class="flickr-image" src="images/footer_images/6.jpg"></a>
+		<div class="flickr-div"><a href="http://www.flickr.com/search/?q=opendesignweeksasia&m=tags"><img class="flickr-image" src="images/footer_images/1.jpg"></a></div>
+		<div class="flickr-div"><a href="http://www.flickr.com/search/?q=opendesignweeksasia&m=tags"><img class="flickr-image" src="images/footer_images/2.jpg"></a></div>
+		<div class="flickr-div"><a href="http://www.flickr.com/search/?q=opendesignweeksasia&m=tags"><img class="flickr-image" src="images/footer_images/3.jpg"></a></div>
+		<div class="flickr-div"><a href="http://www.flickr.com/search/?q=opendesignweeksasia&m=tags"><img class="flickr-image" src="images/footer_images/4.jpg"></a></div>
+		<div class="flickr-div"><a href="http://www.flickr.com/search/?q=opendesignweeksasia&m=tags"><img class="flickr-image" src="images/footer_images/5.jpg"></a></div>
+		<div class="flickr-div"><a href="http://www.flickr.com/search/?q=opendesignweeksasia&m=tags"><img class="flickr-image" src="images/footer_images/6.jpg"></a></div>
+
+		<hr>
+
+		<p><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/de/" target="_blank">Creative Commons Attribution-Noncommercial-Share Alike Lizenz</a>  |  WebSite <a href="http://mbm.asia/">MBM</a></p>
+
 	</div>
 
     	<br>
-	<p><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/de/" target="_blank">Creative Commons Attribution-Noncommercial-Share Alike Lizenz</a>  |  WebSite <a href="http://mbm.asia/">MBM</a></p>
 	</div>
-	</div>
-</body>
 </html>
+
 
   </body>
 
