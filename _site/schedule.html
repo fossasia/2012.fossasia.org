@@ -2,6 +2,8 @@
 <html>
 
   <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/dbde60fe2b.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,6 +17,7 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+    <script src="javascripts/navigationbar.js"></script>
 </head>
 
 
@@ -76,7 +79,7 @@ li {
 	float: right;
 }
 #home-link {
-      float: left;
+      float: right;
 }
 
 /*Style for menu links*/
@@ -250,29 +253,93 @@ a:hover {
 	text-decoration: underline;
 }
 
-	</style>
+.dropbtn {
+    color: white;
+    width: 122px;
+    height: 50px;
+    padding: 0;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    background-color: #2f3036;
+}
+
+.dropbtn i{
+	position: absolute;
+	top: 13px;
+	margin-left: 2px;
+}
+
+.dropbtn:focus{
+	background-color: black;
+	outline: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    max-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content li{
+	background-color: white;
+	display: block;
+	padding: 0;
+	width: 122px;
+	border-top: 1px solid gray
+}
+
+.dropdown-content li a{
+	color: black;
+	background-color: white;
+    text-decoration: none;
+    display: block;
+}
+
+#myDropdown{
+	padding: 0;
+}
+
+.dropdown-content li a:hover {background-color: #f1f1f1}
+
+.showDropdown {display:block;}
+
+#fossasia-logo-navbar{
+	width: 120px; 
+	float: left;
+	margin-top: 15px;
+}
+
+</style>
+
 <header>
 	<nav>
-	<label for="show-menu" class="show-menu">Show Menu</label>
-	<input type="checkbox" id="show-menu" role="button">
-	<ul id="menu">
-		<li id="home-link"><a href="index.html">Home</a></li>
-		<li><a href="http://2014.fossasia.org/"> FOSSASIA '14</a></li>
-            <li><a href="exhibition.html">Exhibition</a></li>
-            <li><a href="design.html">Design &amp; Camps</a></li>
-            <li><a href="workshops.html">Workshops</a></li>
-            <li><a href="designers.html">Designers</a></li>
-            <li><a href="schedule.html">Schedule</a></li>
-            <li><a href="http://blog.fossasia.org/contact/">Contact</a></li>
-            <li><a href="/#about">About</a></li>
-            <li><a href="http://fossasia.org/">FOSSASIA 2015</a></li>
-            <li><a href="http://blog.fossasia.org">Blog</a></li>
-	</ul>
+		<label for="show-menu" class="show-menu">Show Menu</label>
+		<input type="checkbox" id="show-menu" role="button">
+		<ul id="menu">
+			<li class="dropdown">
+	            <button onclick="openDropdown()" class="dropbtn">FOSSASIA<i class="fa fa-sort-desc fa-lg" aria-hidden="true"></i></button>
+	            <ul id="myDropdown" class="dropdown-content">
+	                <li><a href="http://2014.fossasia.org/"> FOSSASIA 2014</a></li>
+	            	<li><a href="http://fossasia.org/">FOSSASIA 2015</a></li>
+	            	<li><a href="http://blog.fossasia.org">Blog</a></li>
+	            </ul>
+	        </li>
+	        <li><a href="exhibition.html">Exhibition</a></li>
+	        <li><a href="design.html" style="padding: 0 12px;">Design &amp; Camps</a></li>
+	        <li><a href="workshops.html">Workshops</a></li>
+	        <li><a href="designers.html">Designers</a></li>
+	        <li><a href="schedule.html">Schedule</a></li>
+	        <li><a href="http://blog.fossasia.org/contact/">Contact</a></li>
+	        <li><a href="/#about">About</a></li> 
+	        <li id="home-link"><a href="index.html">Home</a></li>
+	        <li id="logo-link"><a href="index.html"><img id="fossasia-logo-navbar" src="images/fossasia-logo-light.png" alt=""></a></li>  
+		</ul>
 	</nav>
 </header>
 <div id="wrapper">
 <div id="content">
-
 
     <div class="page-content">
       <div class="wrapper">
