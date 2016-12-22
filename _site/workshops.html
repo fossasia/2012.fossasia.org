@@ -318,8 +318,8 @@ a:hover {
 		<label for="show-menu" class="show-menu">Show Menu</label>
 		<input type="checkbox" id="show-menu" role="button">
 		<ul id="menu">
-			<li class="dropdown">
-	            <button onclick="openDropdown()" class="dropbtn">FOSSASIA<i class="fa fa-sort-desc fa-lg" aria-hidden="true"></i></button>
+			<li class="dropdown" onmouseleave="openDropdown()">
+	            <button  class="dropbtn" onmouseover="openDropdown()">FOSSASIA<i class="fa fa-sort-desc fa-lg" aria-hidden="true"></i></button>
 	            <ul id="myDropdown" class="dropdown-content">
 	                <li><a href="http://2014.fossasia.org/"> FOSSASIA 2014</a></li>
 	            	<li><a href="http://fossasia.org/">FOSSASIA 2015</a></li>
@@ -334,7 +334,7 @@ a:hover {
 	        <li><a href="http://blog.fossasia.org/contact/">Contact</a></li>
 	        <li><a href="/#about">About</a></li> 
 	        <li id="home-link"><a href="index.html">Home</a></li>
-	        <li id="logo-link"><a href="index.html"><img id="fossasia-logo-navbar" src="images/fossasia-logo-light.png" alt=""></a></li>  
+	        <li id="logo-link"><a href="http://fossasia.org/"><img id="fossasia-logo-navbar" src="images/fossasia-logo-light.png" alt=""></a></li>  
 		</ul>
 	</nav>
 </header>

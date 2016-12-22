@@ -18,7 +18,7 @@ window.onclick = function(event) {
 
 $(document).ready(function(){
 	if($(window).height < 776){
-		$("#logo-link").hide();
+		$("#logo-link").remove();
 	}
 });
 
