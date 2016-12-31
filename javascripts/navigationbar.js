@@ -16,6 +16,14 @@ window.onclick = function(event) {
   }
 }
 
+var $root = $('html, body');
+$('a').click(function() {
+    $root.animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 1000);
+    return false;
+});
+
 $(document).ready(function(){
 	if($(window).height < 776){
 		$("#logo-link").remove();
