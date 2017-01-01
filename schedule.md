@@ -25,36 +25,6 @@ Designers, university lecturers, students, artists, local open source communitie
 
 ![Speaking](images/speaking.jpg "Speaking")
 
-<style type="text/css">
-.tg  {
-      border-collapse:collapse;
-      border-spacing:0;
-}
-.tg td {
-      font-size:14px;
-      padding:10px 10px;
-      overflow:hidden;
-      word-break:normal;
-}
-.tg th {
-      font-size:14px;
-      font-weight:normal;
-      padding:10px 10px;
-      overflow:hidden;
-      word-break:normal;
-}
-.tg .tg-s6z2 {
-      text-align:center
-}
-.tg .tg-jq4u {
-      font-weight:bold;
-      background-color:#ffffff;
-      text-align:center
-}
-.tg .tg-zlxb {
-      background-color:#ffffff;
-}
-</style>
 <div class="table-div">
 <table class="tg" style="undefined;table-layout: fixed; width: 777px">
 <colgroup>
@@ -171,36 +141,7 @@ Students, amateurs and professionals with a design/art background or in computer
 ![FOSSASIA Group](images/fossasia_group4.jpg "FOSSASIA Group")
 ![FOSSASIA Group](images/fossasia_group5.jpg "FOSSASIA Group")
 
-<style type="text/css">
-.tg  {
-      border-collapse:collapse;
-      border-spacing:0;
-}
-.tg td {
-      font-size:14px;
-      padding:10px 10px;
-      overflow:hidden;
-      word-break:normal;
-}
-.tg th {
-      font-size:14px;
-      font-weight:normal;
-      padding:10px 10px;
-      overflow:hidden;
-      word-break:normal;
-}
-.tg .tg-s6z2 {
-      text-align:center
-}
-.tg .tg-jq4u {
-      font-weight:bold;
-      background-color:#ffffff;
-      text-align:center
-}
-.tg .tg-zlxb {
-      background-color:#ffffff;
-}
-</style>
+
 <div class="table-div">
 <table class="tg" style="undefined;table-layout: fixed; width: 772px">
 <colgroup>
