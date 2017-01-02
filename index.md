@@ -15,9 +15,9 @@ The Open Design Weeks are all about sharing of graphic designs, [Libre Graphics]
 
 Events during the design weeks include workshops, design camps to share expertise in an unconference, company meet ups to establish international cooperations, presentations in Universities and training workshops.
 
-![Hong Phuc Dang](images/hong_phuc.jpg "Hong Phuc Dang")
+![Opening of Open Design Weeks by Hong Phuc Dang and Mario Behling](images/OpenDesignWeeks.jpg "Opening of Open Design Weeks by Hong Phuc Dang and Mario Behling")
 
-Presentation of Fontforge at Open Design Weeks Asia in Ho Chi Minh City.
+Opening of Open Design Weeks by Hong Phuc Dang and Mario Behling
 
 ![Student Participants](images/opendesigngathering1.jpg "Student Participants")
 
@@ -30,6 +30,10 @@ Connecting Open Source Designers with local participants in Vietnam during Open 
 ![Designer's Poster](images/designers_poster.jpg "Designer's Poster")
 
 The intensive workshops with International designers and typographers focus on collaborative font design, mapping and publication. The workshops were held at at the University of Arts and Design in Ho Chi Minh City and the [CanTho Mekong Hotel Xoai](http://hotelxoai.com).
+
+![Hong Phuc Dang](images/hong_phuc.jpg "Hong Phuc Dang")
+
+Presentation of Fontforge at University of Arts Saigon.
 
 ![FOSSASIA Group](images/fossasia_group3.jpg "FOSSASIA Group")
 
