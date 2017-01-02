@@ -35,6 +35,10 @@ The intensive workshops with International designers and typographers focus on c
 
 Presentation of Fontforge at University of Arts Saigon.
 
+![Open Source Design Saigon](images/OpenDesignWeeksAsiaSaigon.jpg "Open Source Design Participants")
+
+Curios participants learning about design from paper and pen to command line tools.
+
 ![FOSSASIA Group](images/fossasia_group3.jpg "FOSSASIA Group")
 
 Happy students at Open Design Weeks. More than 50% of all participants are female.
