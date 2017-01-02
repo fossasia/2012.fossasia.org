@@ -39,7 +39,7 @@ Presentation of Fontforge at University of Arts Saigon.
 
 Curios participants learning about design from paper and pen to command line tools.
 
-![FOSSASIA Group](images/fossasia_group3.jpg "FOSSASIA Group")
+![Open Source Design with FOSSASIA](images/fossasia_group3.jpg "Open Source Design with FOSSASIA")
 
 Happy students at Open Design Weeks. More than 50% of all participants are female.
 
@@ -50,6 +50,10 @@ Open Design Weeks Asia drawing many participants, students, designers and develo
 ![Open Design](images/OpenSourceDesign-QA.jpg "Open Design Questions and Answers")
 
 A lively discussion about the opportunities of Open Source Design and Open Design workflows took place in the University of Arts in Ho Chi Minh City.
+
+![Open Source Design Posters](images/OpenSourceDesignPosters.jpg "Open Source Design Posters")
+
+Sharing Open Source Design Posters at Open Design Weeks.
 
 ![Open Design](images/OpenSourceDesignParticipants.jpg "Open Design Questions and Answers")
 

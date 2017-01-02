@@ -27,7 +27,7 @@ Time: Morning 9am-12pm, Afternoon 2-5pm
 
 Place of workshop: University Ho Chi Minh City (tbd)
 
-![Open Source Designer Workshop](images/opendesignevent1.jpg "Group")
+![Open Source Designer Workshop](images/opendesignevent1.jpg "Open Source Designer Workshop")
 
 ## WEEK 1/WORKSHOPS AT COMPANIES AND UNIVERSITIES
 
@@ -43,6 +43,8 @@ Wednesday, 6 April: Workshop Sessions / Visit to Designer Labs and companies in 
 
 Contact for Interested Companies and Universities
 Companies and universities interested in meetings with International designers please contact Dang, Hong Phuc.
+
+![Open Source Designer Workshop](images/OpenSourcePublishingWorkshop.jpg "Open Source Publishing Workshop")
 
 ## WEEK 2/WORKSHOP 1: FONT DESIGN (TYPOGRAPHY)
 
