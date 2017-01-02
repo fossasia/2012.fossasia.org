@@ -9,7 +9,7 @@ title: FOSSASIA | Open Design and Maker Weeks Asia 2011/2012
 
 The [FOSSASIA](http://fossasia.org/) Open Design Weeks Asia took place in Ho Chi Minh City and Cantho (Vietnam) in 2011 and 2012. A wrap up is on our [blog here](http://blog.fossasia.org/opendesignasia-weeks/).
 
-The Open Design Weeks are all about sharing of graphic designs, [Libre Graphics](http://libregraphics.net/), [Open Source Graphics Software](https://libregraphicsmeeting.org), open content and Free Culture Practices, [FasionTec](http://fashiontec.org/) and the [maker community](http://meshcon.net/).
+The Open Source Design Weeks are all about sharing of graphic designs, [Libre Graphics](http://libregraphics.net/), [Open Source Graphics Software](https://libregraphicsmeeting.org), open content and Free Culture Practices, [FasionTec](http://fashiontec.org/) and the [maker community](http://meshcon.net/).
 
 ![Group FOSSASIA](images/fossasia_group2.jpg "Group FOSSASIA")
 
@@ -46,6 +46,10 @@ Open Design Weeks Asia drawing many participants, students, designers and develo
 ![Open Design](images/OpenSourceDesign-QA.jpg "Open Design Questions and Answers")
 
 A lively discussion about the opportunities of Open Source Design and Open Design workflows took place in the University of Arts in Ho Chi Minh City.
+
+![Open Design](images/OpenSourceDesignParticipants.jpg "Open Design Questions and Answers")
+
+Artists and design students want to learn about digital tools at Open Design event in Saigon.
 
 ![Open Source Design Dinner](images/dinner.jpg "Open Source Design Dinner")
 
