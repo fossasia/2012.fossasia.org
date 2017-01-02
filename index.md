@@ -7,9 +7,9 @@ title: FOSSASIA | Open Design and Maker Weeks Asia 2011/2012
 
 ![Group FOSSASIA](images/fossasia_group1.jpg "Group FOSSASIA")
 
-The [FOSSASIA](http://fossasia.org/) Open Design Weeks Asia took place in Hochi Minh City and Cantho (Vietnam) in 2011 and 2012.
+The [FOSSASIA](http://fossasia.org/) Open Design Weeks Asia took place in Ho Chi Minh City and Cantho (Vietnam) in 2011 and 2012. A wrap up is on our [blog here](http://blog.fossasia.org/opendesignasia-weeks/).
 
-The Open Design Weeks are all about sharing of graphic designs, [Libre Graphics](http://libregraphics.net/), [Open Source Software](http://fossasia.org/), open content and [Free Culture Practices](http://libregraphicsmeeting.org/), [FasionTec](http://fashiontec.org/) and the [maker community](http://meshcon.net/).
+The Open Design Weeks are all about sharing of graphic designs, [Libre Graphics](http://libregraphics.net/), [Open Source Graphics Software](https://libregraphicsmeeting.org), open content and Free Culture Practices, [FasionTec](http://fashiontec.org/) and the [maker community](http://meshcon.net/).
 
 ![Group FOSSASIA](images/fossasia_group2.jpg "Group FOSSASIA")
 
@@ -33,13 +33,15 @@ Dinner and Social Meetup during FOSSASIA Open Design Weeks in Saigon (Ho Chi Min
 
 ![FOSSASIA Group](images/fossasia_group3.jpg "FOSSASIA Group")
 
-Hong Phuc Dang, organizer of the Open Design weeks at a meetup in the Saigon Science Park in Ho Chi Minh City
+Happy students at Open Design Weeks. More than 50% of all participants are female.
 
 ![Hong Phuc Dang](images/hong_profile.jpg "Hong Phuc Dang")
 
+Hong Phuc Dang, organizer of the Open Design weeks at a meetup in the Saigon Science Park in Ho Chi Minh City
+
 ## About
 
-OpenDesign.Asia is dedicated at promoting sharing among designers and cooperation across the continent and around the world. The initiative was started by a group of international contributors during [FOSSASIA](http://fossasia.org) 2010 in Ho Chi Minh City including [Hong Phuc Dang](https://twitter.com/hpdang), [Mario Behling](http://mariobehling.de), and Pierros Papadeas. 
+OpenDesign.Asia is dedicated at promoting sharing among designers and cooperation across the continent and around the world. The initiative was started by a group of international contributors during [FOSSASIA](http://fossasia.org) 2010 in Ho Chi Minh City by [Hong Phuc Dang](https://twitter.com/hpdang) and [Mario Behling](http://mariobehling.de). 
 
 **Open Design** is the development of graphical interfaces, physical products, machines and systems through use of publicly shared design information and Open Source applications. The goals and philosophy are identical to [Open Source Software](http://en.wikipedia.org/wiki/Open_source) and [Open Source Hardware](http://en.wikipedia.org/wiki/Open_source_hardware) design, but reside in a different paradigm.
 
