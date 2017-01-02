@@ -45,7 +45,7 @@ A lively discussion about the opportunities of Open Source Design and Open Desig
 
 ![Open Source Design Dinner](images/dinner.jpg "Open Source Design Dinner")
 
-Enjoying dinner and social meetups during the FOSSASIA Open Design Weeks in Saigon (Ho Chi Minh City)
+Enjoying dinner and social meetups during the FOSSASIA Open Design Weeks in Saigon (Ho Chi Minh City) with developers and designers from Singapore.
 
 ## About
 

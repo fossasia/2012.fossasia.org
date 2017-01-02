@@ -9,11 +9,10 @@ Designers training participants at the Open Design Weeks come from the [Open Sou
 
 ## OSP
 
-OSP (Open Source Publishing) is an interdisciplinary and international collective based in Brussels, Belgium that uses only Free, Libre and Open Source Software (F/LOSS).
+OSP (Open Source Publishing) is an interdisciplinary and international collective based in Brussels, Belgium that uses only Free, Libre and Open Source Software (F/LOSS). Since 2006, OSP tests the possibilities and realities of doing design, illustration, cartography and typography using a wide range of F/LOSS tools. We realise that modifying and expanding the tools we are working with, while engaging deeper with the communities that develop them, change both our practice and the designs we are creating.
 
-Since 2006, OSP tests the possibilities and realities of doing design, illustration, cartography and typography using a wide range of F/LOSS tools.
-
-We realise that modifying and expanding the tools we are working with, while engaging deeper with the communities that develop them, change both our practice and the designs we are creating.
+![Open Source Publishing](images/OpenSourcePublishing.jpg "Open Source Publishing")
+Open Source Publishing Group getting started at a presentation at the University of Arts Saigon
 
 ## Participants
 

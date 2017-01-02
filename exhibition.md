@@ -11,7 +11,7 @@ On Friday 7 April: Opening of the Open Design Exhibition featuring free artworks
 
 Libre Graphics Artworks including Free Fonts, Posters, Comics and Books on display at district 1 in Saigon (Ho Chi Minh City)
 
-![Paintings](images/paintings.jpg "Paintings")
+![Open Source Design Paintings](images/paintings.jpg "Open Source Design Paintings")
 
 Inkscape Art, Map art and Libre Art books at FOSSASIA Open Design Exhibition in Saigon
 
