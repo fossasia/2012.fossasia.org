@@ -27,6 +27,10 @@ Many students and local Vietnamese artists participated in the Open Source Desig
 
 The intensive workshops with International designers and typographers focus on collaborative font design, mapping and publication. The workshops were held at at the University of Arts and Design in Ho Chi Minh City and the [CanTho Mekong Hotel Xoai](http://hotelxoai.com).
 
+![Open Design](images/OpenSourceDesign-QA.jpg "Open Design Questions and Answers")
+
+A lively discussion about the opportunities of Open Source Design and Open Design workflows took place in the University of Arts in Ho Chi Minh City.
+
 ![Dinner](images/dinner.jpg "Dinner")
 
 Dinner and Social Meetup during FOSSASIA Open Design Weeks in Saigon (Ho Chi Minh City)
@@ -34,6 +38,10 @@ Dinner and Social Meetup during FOSSASIA Open Design Weeks in Saigon (Ho Chi Min
 ![FOSSASIA Group](images/fossasia_group3.jpg "FOSSASIA Group")
 
 Happy students at Open Design Weeks. More than 50% of all participants are female.
+
+![International Open Source Designer](images/opendesignevent2.jpg "Open Source Designers")
+
+Connecting Open Source Designers with local participants in Vietnam during Open Source Design Weeks.
 
 ![Hong Phuc Dang](images/hong_profile.jpg "Hong Phuc Dang")
 

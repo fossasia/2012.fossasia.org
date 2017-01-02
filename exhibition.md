@@ -23,7 +23,7 @@ Students enjoying Open Source Design Prints
 
 Vietnamese Digital Artists Connecting at Open Source Design Exhibition
 
-![Open Source Design with Hong Phuc Dang and Mario Behling](images/opendesignexhibition1.jpg "Open Source Design")
+![Open Source Design with Hong Phuc Dang and Mario Behling](images/opendesignexhibition3.jpg "Open Source Design")
 
 Hong Phuc Dang and Mario Behling presenting prints of digital Open Source Design Works
 
