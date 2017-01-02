@@ -19,13 +19,13 @@ Events during the design weeks include workshops, design camps to share expertis
 
 Presentation of Fontforge at Open Design Weeks Asia in Ho Chi Minh City.
 
+![Student Participants](images/opendesigngathering1.jpg "Student Participants")
+
+Many students and local Vietnamese artists participated in the Open Source Design Weeks.
+
 ![Designer's Poster](images/designers_poster.jpg "Designer's Poster")
 
-The intensive workshops with International designers and typographers focus on collaborative font design, mapping and publication.
-
-The workshops were held at at the University of Arts and Design in Ho Chi Minh City and the [CanTho Mekong Hotel Xoai](http://hotelxoai.com/).
-
-Please join us on [Facebook](https://facebook.com/OpenDesignAsia) and follow us on [twitter](https://twitter.com/opdasia).
+The intensive workshops with International designers and typographers focus on collaborative font design, mapping and publication. The workshops were held at at the University of Arts and Design in Ho Chi Minh City and the [CanTho Mekong Hotel Xoai](http://hotelxoai.com).
 
 ![Dinner](images/dinner.jpg "Dinner")
 
@@ -48,3 +48,5 @@ OpenDesign.Asia is dedicated at promoting sharing among designers and cooperatio
 The "open design" movement as of 2011 is fairly nascent and holds great potential for the future. In some respects design and engineering are even more suited to open collaborative development than the increasingly common open-source software projects, because with 3D models and photographs the concept can often be understood visually. It is not even necessary that the project members speak the same languages to usefully collaborate. 
 
 Compared to software development where there are mature and widely used tools available and the duplication and distribution of code cost next to nothing there are barries to overcome in Open Design project, especially when it involves the production of physical objects. Creating, testing and modifying physical designs is not quite so straightforward because of the effort, time and cost required to create the physical artefact; although with access to emerging flexible computer-controlled manufacturing techniques the complexity and effort of construction become easier.
+
+Please join us on [Facebook](https://facebook.com/OpenDesignAsia) and follow us on [twitter](https://twitter.com/opdasia).

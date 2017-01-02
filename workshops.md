@@ -15,7 +15,7 @@ The first week gives Vietnamese designers in Ho Chi Minh City the opportunity to
 
 Teaching Designers: Pierre Marchand, Femke Snelting, Alexandre Leray, Stephanie Villayphou, Pierre Huyghebaert, David Crossland
 
-Workshop 1: Fonts   
+Workshop 1: Fonts
 
 Workshop 2: Vector illustration
 
@@ -26,6 +26,8 @@ Date: Sunday April 3
 Time: Morning 9am-12pm, Afternoon 2-5pm
 
 Place of workshop: University Ho Chi Minh City (tbd)
+
+![Open Source Designer Workshop](images/opendesignevent1.jpg "Group")
 
 ## WEEK 1/WORKSHOPS AT COMPANIES AND UNIVERSITIES
 

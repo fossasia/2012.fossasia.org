@@ -3,11 +3,11 @@ layout: default
 title: OPEN DESIGN EXHIBITION | FOSSASIA
 ---
 
-# OPEN DESIGN EXHIBITION
+# OPEN SOURCE DESIGN EXHIBITION
 
 On Friday 7 April: Opening of the Open Design Exhibition featuring free artworks from designers across the globe.
 
-![Groupt 2](images/group2.jpg "Group 2")
+![Group 2](images/group2.jpg "Group 2")
 
 Libre Graphics Artworks including Free Fonts, Posters, Comics and Books on display at district 1 in Saigon (Ho Chi Minh City)
 
@@ -15,7 +15,20 @@ Libre Graphics Artworks including Free Fonts, Posters, Comics and Books on displ
 
 Inkscape Art, Map art and Libre Art books at FOSSASIA Open Design Exhibition in Saigon
 
-## OPEN DESIGN EXHIBITION
+![Students enjoying Open Source Design Prints](images/opendesignexhibition1.jpg "Open Source Design")
+
+Students enjoying Open Source Design Prints
+
+![Vietnamese Digital Artists Connecting at Open Source Design Exhibition](images/opendesignexhibition2.jpg "Open Source Design")
+
+Vietnamese Digital Artists Connecting at Open Source Design Exhibition
+
+![Open Source Design with Hong Phuc Dang and Mario Behling](images/opendesignexhibition1.jpg "Open Source Design")
+
+Hong Phuc Dang and Mario Behling presenting prints of digital Open Source Design Works
+
+
+## DATES AND LOCATION
 
 Date: Friday 7 April, 2012
 
