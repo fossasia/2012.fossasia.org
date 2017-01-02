@@ -1,51 +1,33 @@
-    <head>
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="css/flexslider.min.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="css/elegant-icons.min.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="css/pe-icon-7-stroke.min.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="css/theme-lava.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="css/custom.css" rel="stylesheet" type="text/css" media="all"/><header>
-    </head>
+<header>
 	<nav>
-        <a id="top"></a>
-
-        <div class="nav-container"><nav class="overlay-nav">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-2">
-                                <img alt="Logo" class="logo logo-light" src="img/fossasia-long.png">
-                                <img alt="Logo" class="logo logo-dark" src="img/fossasia-dark.png">
-                            </div>
-
-                            <div class="col-md-10 text-right">
-                                <ul class="menu">
-                                    <li><a target="_self" href="http://fossasia.org">Home</a></li>
-									<li><a target="default" class="inner-link" href="/speaker-registration/">Become a Speaker</a></li>
-									<li><a target="_self" href="http://www.eventnook.com/event/fossasia17/register">Tickets</a></li>
-									<li><a target="_self" href="./volunteers">Volunteers</a></li><li><a target="_self" class="inner-link" href="#sponsors">Sponsors</a>
-									</li><li><a target="_self" href="http://blog.fossasia.org">Blog</a></li>
-                                    <li class="has-dropdown"><a href="#">FOSSASIA</a>
-                                        <ul class="nav-dropdown">
-                                            <li><a target="_self" href="http://labs.fossasia.org">FOSSASIA Labs</a></li>
-                                            <li><a target="_self" href="http://fossasia.net">FOSSASIA Network</a></li>
-                                            <li><a target="_self" href="http://2016.fossasia.org">FOSSASIA 2016</a></li>
-                                            <li><a target="_self" href="http://2015.fossasia.org">FOSSASIA 2015</a></li>
-                                            <li><a target="_self" href="http://2014.fossasia.org">FOSSASIA 2014</a></li>
-                                            <li><a target="_self" href="http://2012.fossasia.org">FOSSASIA 2012</a></li>
-                                            <li><a target="_self" href="http://2011.fossasia.org">FOSSASIA 2011</a></li>
-                                            <li><a target="_self" href="http://2010.fossasia.org">FOSSASIA 2010</a></li>
-                                            <li><a target="_self" href="http://coc.fossasia.org">Code of Conduct</a></li>
-                                        </ul>
-                                    </li>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="bottom-border"></div>
-
-
+		<label for="show-menu" class="show-menu">Show Menu</label>
+		<input type="checkbox" id="show-menu" role="button">
+		<ul id="menu">
+			<li class="dropdown" onmouseleave="openDropdown()">
+	            <button  class="dropbtn" onmouseover="openDropdown()">FOSSASIA<i class="fa fa-sort-desc fa-lg" aria-hidden="true"></i></button>
+	            <ul id="myDropdown" class="dropdown-content">
+	            	<li><a href="http://blog.fossasia.org">Blog</a></li>
+	            	<li><a href="http://labs.fossasia.org">Labs</a></li>
+	            	<li><a href="http://events.fossasia.org">Events</a></li>
+	            	<li><a href="http://2017.fossasia.org/">FOSSASIA Summit 2017</a></li>
+	            	<li><a href="http://2016.fossasia.org/">FOSSASIA Summit 2016</a></li>
+	            	<li><a href="http://2015.fossasia.org/">FOSSASIA Summit 2015</a></li>
+	                <li><a href="http://2014.fossasia.org/">FOSSASIA Summit 2014</a></li>
+	                <li><a href="http://2013.fossasia.org/">FOSSASIA Summit 2013</a></li>
+	                <li><a href="http://2012.fossasia.org/">FOSSASIA Summit 2012</a></li>
+	                <li><a href="http://2011.fossasia.org/">FOSSASIA Summit 2011</a></li>
+	                <li><a href="http://2010.fossasia.org/">FOSSASIA Summit 2010</a></li>
+	            </ul>
+	        </li>
+	        <li><a href="designers.html">Designers</a></li>
+	        <li><a href="exhibition.html">Exhibition</a></li>
+	        <li><a href="design.html">Design &amp; Camps</a></li>
+	        <li><a href="workshops.html">Workshops</a></li>
+	        <li><a href="schedule.html">Schedule</a></li>
+	        <li><a href="{{ baseurl }}/#about">About</a></li> 
+	        <li id="home-link"><a href="index.html">Home</a></li>
+	        <li id="logo-link"><a href="http://fossasia.org/"><img id="fossasia-logo-navbar" src="images/fossasia-logo-light.png" alt=""></a></li>  
+		</ul>
 	</nav>
 </header>
 <div id="wrapper">
