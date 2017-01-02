@@ -23,29 +23,29 @@ Presentation of Fontforge at Open Design Weeks Asia in Ho Chi Minh City.
 
 Many students and local Vietnamese artists participated in the Open Source Design Weeks.
 
+![International Open Source Designer](images/opendesignevent2.jpg "Open Source Designers")
+
+Connecting Open Source Designers with local participants in Vietnam during Open Source Design Weeks.
+
 ![Designer's Poster](images/designers_poster.jpg "Designer's Poster")
 
 The intensive workshops with International designers and typographers focus on collaborative font design, mapping and publication. The workshops were held at at the University of Arts and Design in Ho Chi Minh City and the [CanTho Mekong Hotel Xoai](http://hotelxoai.com).
-
-![Open Design](images/OpenSourceDesign-QA.jpg "Open Design Questions and Answers")
-
-A lively discussion about the opportunities of Open Source Design and Open Design workflows took place in the University of Arts in Ho Chi Minh City.
-
-![Dinner](images/dinner.jpg "Dinner")
-
-Dinner and Social Meetup during FOSSASIA Open Design Weeks in Saigon (Ho Chi Minh City)
 
 ![FOSSASIA Group](images/fossasia_group3.jpg "FOSSASIA Group")
 
 Happy students at Open Design Weeks. More than 50% of all participants are female.
 
-![International Open Source Designer](images/opendesignevent2.jpg "Open Source Designers")
+![Open Source Design Weeks](images/OpenSourceDesignWeeks.jpg "Open Source Design Weeks")
 
-Connecting Open Source Designers with local participants in Vietnam during Open Source Design Weeks.
+Open Design Weeks Asia drawing many participants, students, designers and developers.
 
-![Hong Phuc Dang](images/hong_profile.jpg "Hong Phuc Dang")
+![Open Design](images/OpenSourceDesign-QA.jpg "Open Design Questions and Answers")
 
-Hong Phuc Dang, organizer of the Open Design weeks at a meetup in the Saigon Science Park in Ho Chi Minh City
+A lively discussion about the opportunities of Open Source Design and Open Design workflows took place in the University of Arts in Ho Chi Minh City.
+
+![Open Source Design Dinner](images/dinner.jpg "Open Source Design Dinner")
+
+Enjoying dinner and social meetups during the FOSSASIA Open Design Weeks in Saigon (Ho Chi Minh City)
 
 ## About
 
@@ -58,3 +58,7 @@ The "open design" movement as of 2011 is fairly nascent and holds great potentia
 Compared to software development where there are mature and widely used tools available and the duplication and distribution of code cost next to nothing there are barries to overcome in Open Design project, especially when it involves the production of physical objects. Creating, testing and modifying physical designs is not quite so straightforward because of the effort, time and cost required to create the physical artefact; although with access to emerging flexible computer-controlled manufacturing techniques the complexity and effort of construction become easier.
 
 Please join us on [Facebook](https://facebook.com/OpenDesignAsia) and follow us on [twitter](https://twitter.com/opdasia).
+
+![Hong Phuc Dang](images/hong_profile.jpg "Hong Phuc Dang")
+
+Hong Phuc Dang, organizer of the Open Design weeks at a meetup in the Saigon Science Park in Ho Chi Minh City
