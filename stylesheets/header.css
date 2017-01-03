@@ -79,6 +79,10 @@ li:hover a {
 }
 
 /*Style for dropdown links*/
+.dropdown {
+	margin-right: 40px;
+}
+
 li:hover #menu a {
 	background: #f3f3f3;
 	color: #2f3036;
@@ -261,8 +265,9 @@ a:hover {
 	background-color: white;
 	display: block;
 	padding: 0;
-	width: 122px;
-	border-top: 1px solid gray
+	width: 186px;
+	border-top: 1px solid gray;
+	font-size: 13px;
 }
 
 .dropdown-content li a{
