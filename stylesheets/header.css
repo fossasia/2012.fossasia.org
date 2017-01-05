@@ -130,6 +130,13 @@ li #menu li a {
 	display: none;
 }
 
+
+#myDropdown li a{
+	margin-right: 0;
+	text-align: left;
+	padding-left: 15px;
+}
+
 /*Hide checkbox*/
 input[type=checkbox]{
     display: none;
