@@ -79,6 +79,10 @@ li:hover a {
 }
 
 /*Style for dropdown links*/
+.dropdown {
+	margin-right: 40px;
+}
+
 li:hover #menu a {
 	background: #f3f3f3;
 	color: #2f3036;
@@ -124,6 +128,13 @@ li #menu li a {
 	text-align: center;
 	padding: 10px 0;
 	display: none;
+}
+
+
+#myDropdown li a{
+	margin-right: 0;
+	text-align: left;
+	padding-left: 15px;
 }
 
 /*Hide checkbox*/
@@ -261,8 +272,9 @@ a:hover {
 	background-color: white;
 	display: block;
 	padding: 0;
-	width: 122px;
-	border-top: 1px solid gray
+	width: 186px;
+	border-top: 1px solid gray;
+	font-size: 13px;
 }
 
 .dropdown-content li a{
