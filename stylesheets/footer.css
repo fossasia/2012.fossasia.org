@@ -1,9 +1,9 @@
 #FOOTER_1 {
     box-sizing: border-box;
     color: rgb(119, 119, 119);
-    height: 452px;
+    min-height: 452px;
     text-size-adjust: 100%;
-    width: 1349px;
+    width: 100%;
     column-rule-color: rgb(119, 119, 119);
     perspective-origin: 674.5px 226px;
     transform-origin: 674.5px 226px;
@@ -17,9 +17,9 @@
 #DIV_2 {
     box-sizing: border-box;
     color: rgb(119, 119, 119);
-    height: 344px;
+    min-height: 344px;
     text-size-adjust: 100%;
-    width: 1170px;
+    width: 100%;
     column-rule-color: rgb(119, 119, 119);
     perspective-origin: 585px 172px;
     transform-origin: 585px 172px;
@@ -60,7 +60,7 @@
     color: rgb(119, 119, 119);
     height: 275px;
     text-size-adjust: 100%;
-    width: 1170px;
+    width: 100%;
     column-rule-color: rgb(119, 119, 119);
     perspective-origin: 585px 137.5px;
     transform-origin: 585px 137.5px;
@@ -107,16 +107,28 @@
     right: 0px;
     text-size-adjust: 100%;
     top: 0px;
-    width: 195px;
+    width: 16.66666667%;
     column-rule-color: rgb(119, 119, 119);
     perspective-origin: 97.5px 100px;
     transform-origin: 97.5px 100px;
     border: 0px none rgb(119, 119, 119);
     font: normal normal normal normal 14px / 24px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     outline: rgb(119, 119, 119) none 0px;
-    padding: 0px 15px;
+    padding: 0px 12px;
 }/*#DIV_4*/
 
+@media only screen and (max-width: 768px) {
+#DIV_4 {
+    float: none;
+}
+#DIV_22 {
+    float: none;
+}
+#DIV_25 {
+    float: none !important;
+    padding-top: 110% !important;
+}
+}
 #UL_5 {
     box-sizing: border-box;
     color: rgb(119, 119, 119);
@@ -402,7 +414,7 @@
     right: 0px;
     text-size-adjust: 100%;
     top: 0px;
-    width: 682.5px;
+    width: 58.3333333% !important;
     column-rule-color: rgb(119, 119, 119);
     perspective-origin: 341.25px 68.5px;
     transform-origin: 341.25px 68.5px;
@@ -433,7 +445,7 @@
     color: rgb(119, 119, 119);
     height: 96px;
     text-size-adjust: 100%;
-    width: 652.5px;
+    width: 100%;
     column-rule-color: rgb(119, 119, 119);
     perspective-origin: 326.25px 48px;
     transform-origin: 326.25px 48px;
@@ -455,7 +467,7 @@
     right: 0px;
     text-size-adjust: 100%;
     top: 0px;
-    width: 292.5px;
+    width: 25%;
     column-rule-color: rgb(119, 119, 119);
     perspective-origin: 146.25px 137.5px;
     transform-origin: 146.25px 137.5px;
@@ -778,7 +790,7 @@
     color: rgb(119, 119, 119);
     height: 69px;
     text-size-adjust: 100%;
-    width: 1170px;
+    width: 100%;
     column-rule-color: rgb(119, 119, 119);
     perspective-origin: 585px 34.5px;
     transform-origin: 585px 34.5px;
@@ -788,6 +800,17 @@
     outline: rgb(119, 119, 119) none 0px;
 }/*#DIV_41*/
 
+@media only screen (min-width: 768px){
+#DIV_41 {
+    width: 100%;
+    float: left;
+}
+}
+@media only screen and (max-width: 768px){
+  #DIV_41 {
+      margin: 0px;
+  }
+}
 #DIV_41:after {
     box-sizing: border-box;
     clear: both;
@@ -826,7 +849,7 @@
     text-align: center;
     text-size-adjust: 100%;
     top: 0px;
-    width: 1170px;
+    width: 80%;
     column-rule-color: rgb(119, 119, 119);
     perspective-origin: 585px 34.5px;
     transform-origin: 585px 34.5px;
