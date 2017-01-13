@@ -19,15 +19,19 @@
     color: rgb(119, 119, 119);
     min-height: 344px;
     text-size-adjust: 100%;
-    width: 100%;
+    width: 90%;
     column-rule-color: rgb(119, 119, 119);
     perspective-origin: 585px 172px;
     transform-origin: 585px 172px;
     border: 0px none rgb(119, 119, 119);
     font: normal normal normal normal 14px / 24px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 0px 89.5px;
+    margin: 7%;
+    margin-top: 0;
+    margin-bottom: 0;
     outline: rgb(119, 119, 119) none 0px;
-    padding: 0px 15px;
+    padding: 15px;
+    padding-bottom: 0;
+    padding-top: 0;
 }/*#DIV_2*/
 
 #DIV_2:after {
@@ -117,18 +121,32 @@
     padding: 0px 12px;
 }/*#DIV_4*/
 
-@media only screen and (max-width: 768px) {
-#DIV_4 {
-    float: none;
+@media only screen and (max-width: 950px) {
+#DIV_2 {
+  width: 98% !important;
+  margin: 2% !important;
+  margin-top: 0 !important;
 }
-#DIV_22 {
-    float: none;
-}
-#DIV_25 {
+#DIV_4,#DIV_22,#DIV_25 {
     float: none !important;
-    padding-top: 110% !important;
+}
+#LI_44{
+    margin-left: 12% !important;
+}
+#DIV_22{
+    width: 90% !important;
+}
+#DIV_25{
+    width: 290px !important;
 }
 }
+
+@media only screen and (max-width: 350px) {
+  #LI_44{
+      margin-left: 0 !important;
+  }
+}
+
 #UL_5 {
     box-sizing: border-box;
     color: rgb(119, 119, 119);
@@ -407,14 +425,13 @@
     box-sizing: border-box;
     color: rgb(119, 119, 119);
     float: left;
-    height: 137px;
     left: 0px;
     min-height: 1px;
     position: relative;
     right: 0px;
     text-size-adjust: 100%;
     top: 0px;
-    width: 58.3333333% !important;
+    width: 55%;
     column-rule-color: rgb(119, 119, 119);
     perspective-origin: 341.25px 68.5px;
     transform-origin: 341.25px 68.5px;
@@ -422,6 +439,7 @@
     font: normal normal normal normal 14px / 24px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     outline: rgb(119, 119, 119) none 0px;
     padding: 0px 15px;
+    margin-right: 3%;
 }/*#DIV_22*/
 
 #SPAN_23 {
@@ -443,7 +461,6 @@
 #P_24 {
     box-sizing: border-box;
     color: rgb(119, 119, 119);
-    height: 96px;
     text-size-adjust: 100%;
     width: 100%;
     column-rule-color: rgb(119, 119, 119);
@@ -460,7 +477,6 @@
     box-sizing: border-box;
     color: rgb(119, 119, 119);
     float: left;
-    height: 275px;
     left: 0px;
     min-height: 1px;
     position: relative;
@@ -480,9 +496,8 @@
 #UL_26 {
     box-sizing: border-box;
     color: rgb(119, 119, 119);
-    height: 275px;
     text-size-adjust: 100%;
-    width: 262.5px;
+    width: 100%;
     column-rule-color: rgb(119, 119, 119);
     perspective-origin: 131.25px 137.5px;
     transform-origin: 131.25px 137.5px;
@@ -796,20 +811,19 @@
     transform-origin: 585px 34.5px;
     border: 0px none rgb(119, 119, 119);
     font: normal normal normal normal 14px / 24px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 0px -15px;
+    margin: 0px;
     outline: rgb(119, 119, 119) none 0px;
 }/*#DIV_41*/
 
 @media only screen (min-width: 768px){
-#DIV_41 {
-    width: 100%;
-    float: left;
-}
+    #DIV_41 {
+        float: left;
+    }
 }
 @media only screen and (max-width: 768px){
-  #DIV_41 {
-      margin: 0px;
-  }
+    #DIV_41 {
+        margin: 0px;
+    }
 }
 #DIV_41:after {
     box-sizing: border-box;
@@ -849,7 +863,7 @@
     text-align: center;
     text-size-adjust: 100%;
     top: 0px;
-    width: 80%;
+    width: 100%;
     column-rule-color: rgb(119, 119, 119);
     perspective-origin: 585px 34.5px;
     transform-origin: 585px 34.5px;
@@ -893,7 +907,7 @@
     border: 0px none rgb(119, 119, 119);
     font: normal normal normal normal 14px / 24px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     list-style: none outside none;
-    margin: 0px 30px 0px 0px;
+    margin: 0px 5% 0px 0px;
     outline: rgb(119, 119, 119) none 0px;
 }/*#LI_44, #LI_47, #LI_50, #LI_53, #LI_56, #LI_59*/
 
