@@ -247,7 +247,9 @@ a:hover {
     font-size: 1em;
     border: none;
     cursor: pointer;
-    background-color: #2f3036;
+	background-color: #2f3036;
+	width: 100%;
+	margin-left: 40%;
 }
 
 .dropbtn i{
