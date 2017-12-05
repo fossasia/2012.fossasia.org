@@ -3,6 +3,7 @@ layout: default
 title: FOSSASIA | Open Design and Maker Weeks Asia 2011/2012
 ---
 
+<div id="up" style="height: 0px;width: 0px;overflow:hidden;"></div>
 # FOSSASIA OPEN DESIGN WEEKS ASIA 2011/2012
 
 ![Group FOSSASIA](images/fossasia_group1.jpg "Group FOSSASIA")
