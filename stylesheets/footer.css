@@ -431,7 +431,7 @@
     right: 0px;
     text-size-adjust: 100%;
     top: 0px;
-    width: 55%;
+    width: 65%;
     column-rule-color: rgb(119, 119, 119);
     perspective-origin: 341.25px 68.5px;
     transform-origin: 341.25px 68.5px;
@@ -1140,3 +1140,6 @@
     list-style: none outside none;
     outline: rgb(51, 51, 51) none 0px;
 }/*#I_64:before*/
+#DIV_4,#DIV_22,#DIV_25 {
+    margin-top: 200px !important;
+}

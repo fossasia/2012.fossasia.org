@@ -2,7 +2,7 @@
 		#side-bar {
 					display: block;
 					margin-top: 10%;
-					width: 325px;
+					width: 300px !important;
 					float: right;
 					padding-right: 10px;
 		}
@@ -78,4 +78,12 @@
 .flickr-image {
 	height: 100%;
 	width: auto;
+}
+#content {
+	margin-top: 10% !important;
+  	width: 70% !important;
+  	float: left !important;
+}
+#content img {
+  	width: 100%;
 }
