@@ -1,32 +1,50 @@
-<header>
-	<nav>
-		<label for="show-menu" class="show-menu">Show Menu</label>
-		<input type="checkbox" id="show-menu" role="button">
-		<ul id="menu">
-            <li style="float: left;" id="logo-link"><a href="http://fossasia.org/"><img id="fossasia-logo-navbar" src="images/fossasia-logo-light.png" alt=""></a></li>  
-			<li class="dropdown" onmouseleave="openDropdown()">
-	            <button  class="dropbtn" onmouseover="openDropdown()">FOSSASIA<i class="fa fa-sort-desc fa-lg" aria-hidden="true"></i></button>
-	            <ul id="myDropdown" class="dropdown-content">
-	            	<li><a href="http://blog.fossasia.org">Blog</a></li>
-	            	<li><a href="http://labs.fossasia.org">Labs</a></li>
-	            	<li><a href="http://events.fossasia.org">Events</a></li>
-	            	<li><a href="http://2017.fossasia.org/">FOSSASIA Summit 2017</a></li>
-	            	<li><a href="http://2016.fossasia.org/">FOSSASIA Summit 2016</a></li>
-	            	<li><a href="http://2015.fossasia.org/">FOSSASIA Summit 2015</a></li>
-	                <li><a href="http://2014.fossasia.org/">FOSSASIA Summit 2014</a></li>
-	                <li><a href="http://2013.fossasia.org/">FOSSASIA Summit 2013</a></li>
-	                <li><a href="http://2012.fossasia.org/">FOSSASIA Summit 2012</a></li>
-	                <li><a href="http://2011.fossasia.org/">FOSSASIA Summit 2011</a></li>
-	                <li><a href="http://2010.fossasia.org/">FOSSASIA Summit 2010</a></li>
-	            </ul>
-	        </li>
-	        <li><a href="designers.html">Designers</a></li>
-	        <li><a href="exhibition.html">Exhibition</a></li>
-	        <li><a href="design.html">Design &amp; Camps</a></li>
-	        <li><a href="workshops.html">Workshops</a></li>
-	        <li><a href="schedule.html">Schedule</a></li>
-	        <li><a href="{{ baseurl }}./#about">About</a></li> 
-	        <li id="home-link"><a href="{{ baseurl }}./#up">Home</a></li>
-		</ul>
-	</nav>
-</header>
+<nav class="navbar navbar-expand-lg navbar-light bg-light navbar navbar-dark bg-dark" >
+
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+    	<li>
+    		  <a class="navbar-brand" href="#">
+    <img src="fossasia image.png" width="170" height="40" >
+  </a>
+    	</li></ul>
+    	<ul class = "nav navbar-nav navbar-right">
+      <li class="nav-item active">
+        <a class="nav-link" >Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" >Abouts</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://2012.fossasia.org/schedule.html">Schedule</a>
+      </li>
+            <li class="nav-item">
+        <a class="nav-link" href="https://2012.fossasia.org/workshops.html">Workshops</a>
+      </li>
+            <li class="nav-item">
+        <a class="nav-link" href="https://2012.fossasia.org/exhibition.html">Design & camps</a>
+      </li>
+            <li class="nav-item">
+        <a class="nav-link" href="https://2012.fossasia.org/designers.html">Designer</a>
+      </li>
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Fossasia
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Blogs</a>
+          <a class="dropdown-item" href="#">Labs</a>
+          <a class="dropdown-item" href="#">FOSSASIA summit 2017</a>
+          <a class="dropdown-item" href="#">FOSSASIA summit 2016</a>
+          <a class="dropdown-item" href="#">FOSSASIA summit 2015</a>
+          <a class="dropdown-item" href="#">FOSSASIA summit 2014</a>
+          <a class="dropdown-item" href="#">FOSSASIA summit 2013</a>
+          <a class="dropdown-item" href="#">FOSSASIA summit 2012</a>
+          <a class="dropdown-item" href="#">FOSSASIA summit 2011</a>
+          <a class="dropdown-item" href="#">FOSSASIA summit 2010</a>
+      
+        </div>
+      </li>
+    </ul>
+
+  </div>
+</nav>
