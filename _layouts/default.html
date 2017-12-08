@@ -3,13 +3,15 @@
   {% include head.html %}
   <body>
     {% include header.html %}
-    <div id="wrapper">
-      <div id="content">
-        <div class="page-content">
-          <div class="wrapper">{{ content }}</div>
+    <div id="wrapper" class="container">
+      <div class="row">
+        <div id="content">
+          <div class="page-content">
+            <div class="wrapper">{{ content }}</div>
+          </div>
         </div>
+        {% include side_bar.html %}
       </div>
-      {% include side_bar.html %}
     </div>
     {% include footer.html %}
     <script src="javascripts/smoothscroll.js"></script>
