@@ -4,7 +4,8 @@
 					margin-top: 10%;
 					width: 300px !important;
 					float: right;
-					padding-right: 10px;
+					position: relative;
+					right: -24px;
 		}
 
 		hr {
