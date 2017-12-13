@@ -38,7 +38,6 @@
     		#side-bar {
 					display: block;
 					margin-top: 10%;
-                    background-color: #EEE;
 					width: 300px !important;
 					float: right;
 					position: relative;
@@ -57,11 +56,10 @@
 #side-bar {
 					display: block;
 					margin-top: 10%;
-        		    background-color: #EEE;
-					width: 100% !important;
+					width: 300px !important;
 					float: right;
 					position: relative;
-					right: 0px !important;
+					right: -24px;
 		}
     #content {
 	margin-top: 10% !important;
@@ -74,7 +72,6 @@
     		#side-bar {
 					display: block;
 					margin-top: 10%;
-                    background-color: #EEE;
 					width: 300px !important;
 					float: right;
 					position: relative;
@@ -94,7 +91,6 @@
     		#side-bar {
 					display: block;
 					margin-top: 10%;
-                    background-color: #EEE;
 					width: 300px !important;
 					float: right;
 					position: relative;
