@@ -54,13 +54,13 @@
 }
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
 #side-bar {
-        display: block;
-		margin-top: 5%;
-		background-color: #EEE;
-		border-radius: 10px;
-		width: 100%;
-
-	}
+					display: block;
+					margin-top: 10%;
+					width: 100% !important;
+					float: right;
+					position: relative;
+					right: 0px !important;
+		}
     #content {
 	margin-top: 10% !important;
   	width: 100% !important;
