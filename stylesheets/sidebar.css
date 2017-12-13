@@ -1,12 +1,5 @@
 
-		#side-bar {
-					display: block;
-					margin-top: 10%;
-					width: 300px !important;
-					float: right;
-					position: relative;
-					right: -24px;
-		}
+
 
 		hr {
 			margin-top: 40px;
@@ -28,31 +21,94 @@
 
 @media screen and (min-width: 20px) and (max-width : 760px) {
 	#side-bar {
-		display: block;
+        display: block;
 		margin-top: 5%;
-		background-color: #EEE;
 		border-radius: 10px;
 		width: 100%;
-		float: right;
+       float: right;
 	}
+    #content {
+	margin-top: 10% !important;
+<<<<<<< HEAD
+  	width: 100% !important;
+=======
+
+>>>>>>> gh-pages
+}
 }
 
+
 @media screen and (min-width: 760px)  and (max-width: 900px){
+    		#side-bar {
+					display: block;
+					margin-top: 10%;
+					width: 300px !important;
+					float: right;
+					position: relative;
+					right: -24px;
+		}
 	#side-bar h1 {
 		font-size: 0.7em;
 	}
+    #content {
+	margin-top: 10% !important;
+  	width: 60% !important;
+  	float: left !important
+}
+}
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+#side-bar {
+					display: block;
+					margin-top: 10%;
+					margin-left: auto;
+    margin-right: auto;
+        
+		}
+    #content {
+	margin-top: 10% !important;
+  	width: 100% !important;
+}
+    
 }
 
+
+
 @media screen and (min-width: 900px)  and (max-width: 1100px){
+    		#side-bar {
+					display: block;
+					margin-top: 10%;
+					width: 300px !important;
+					float: right;
+					position: relative;
+					right: -24px;
+		}
 	#side-bar h1 {
 		font-size: 0.9em;
 	}
+    #content {
+	margin-top: 10% !important;
+  	width: 60% !important;
+  	float: left !important;
+}
 }
 
 @media screen and (min-width: 1100px)  and (max-width: 1300px){
+    		#side-bar {
+					display: block;
+					margin-top: 10%;
+					width: 300px !important;
+					float: right;
+					position: relative;
+					right: -24px;
+		}
 	#side-bar h1 {
 		font-size: 1.5em;
 	}
+    #content {
+	margin-top: 10% !important;
+  	width: 70% !important;
+  	float: left !important;
+}
 }
 
 .friends-href {
@@ -78,11 +134,7 @@
 	height: 100%;
 	width: auto;
 }
-#content {
-	margin-top: 10% !important;
-  	width: 70% !important;
-  	float: left !important;
-}
+
 #content img {
   	width: 100%;
 }
