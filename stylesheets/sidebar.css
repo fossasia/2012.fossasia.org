@@ -1,12 +1,5 @@
 
-		#side-bar {
-					display: block;
-					margin-top: 10%;
-					width: 300px !important;
-					float: right;
-					position: relative;
-					right: -24px;
-		}
+
 
 		hr {
 			margin-top: 40px;
@@ -42,21 +35,60 @@
 }
 
 @media screen and (min-width: 760px)  and (max-width: 900px){
+    		#side-bar {
+					display: block;
+					margin-top: 10%;
+					width: 300px !important;
+					float: right;
+					position: relative;
+					right: -24px;
+		}
 	#side-bar h1 {
 		font-size: 0.7em;
 	}
+    #content {
+	margin-top: 10% !important;
+  	width: 70% !important;
+  	float: left !important;
+}
 }
 
 @media screen and (min-width: 900px)  and (max-width: 1100px){
+    		#side-bar {
+					display: block;
+					margin-top: 10%;
+					width: 300px !important;
+					float: right;
+					position: relative;
+					right: -24px;
+		}
 	#side-bar h1 {
 		font-size: 0.9em;
 	}
+    #content {
+	margin-top: 10% !important;
+  	width: 70% !important;
+  	float: left !important;
+}
 }
 
 @media screen and (min-width: 1100px)  and (max-width: 1300px){
+    		#side-bar {
+					display: block;
+					margin-top: 10%;
+					width: 300px !important;
+					float: right;
+					position: relative;
+					right: -24px;
+		}
 	#side-bar h1 {
 		font-size: 1.5em;
 	}
+    #content {
+	margin-top: 10% !important;
+  	width: 70% !important;
+  	float: left !important;
+}
 }
 
 .friends-href {
@@ -82,11 +114,7 @@
 	height: 100%;
 	width: auto;
 }
-#content {
-	margin-top: 10% !important;
-  	width: 70% !important;
-  	float: left !important;
-}
+
 #content img {
   	width: 100%;
 }
