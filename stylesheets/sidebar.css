@@ -1,7 +1,4 @@
-#side-bar {
-    		background-color: #EEE;
 
-}
 
 
 		hr {
@@ -45,6 +42,8 @@
 					float: right;
 					position: relative;
 					right: -24px;
+                    		background-color: #EEE;
+
 		}
 	#side-bar h1 {
 		font-size: 0.7em;
@@ -63,6 +62,8 @@
 					float: right;
 					position: relative;
 					right: 0px !important;
+        		background-color: #EEE;
+
 		}
     #content {
 	margin-top: 10% !important;
@@ -79,6 +80,8 @@
 					float: right;
 					position: relative;
 					right: -24px;
+                    		background-color: #EEE;
+
 		}
 	#side-bar h1 {
 		font-size: 0.9em;
@@ -98,6 +101,8 @@
 					float: right;
 					position: relative;
 					right: -24px;
+                    		background-color: #EEE;
+
 		}
 	#side-bar h1 {
 		font-size: 1.5em;
