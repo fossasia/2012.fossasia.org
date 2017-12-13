@@ -28,11 +28,12 @@
 
 @media screen and (min-width: 20px) and (max-width : 760px) {
 	#side-bar {
-		display: block;
+
 		margin-top: 5%;
 		background-color: #EEE;
 		border-radius: 10px;
 		width: 100%;
+
 	}
 }
 
