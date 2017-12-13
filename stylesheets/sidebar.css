@@ -32,10 +32,8 @@
 		margin-top: 5%;
 		background-color: #EEE;
 		border-radius: 10px;
-		width: 90em;
 		width: 100%;
 		float: right;
-		height: 222em;
 	}
 }
 
@@ -89,7 +87,7 @@
   	width: 100%;
 }
 body {
-	background: #E3E3E3 !important;
+	background: #fff;
 	overflow-x: hidden;
 }
 a {
@@ -97,10 +95,6 @@ a {
 }
 a:hover {
 	color: #b82300 !important;
-}
-#wrapper {
-	box-shadow: 1px 0 10px #000;
-	background: #fff;
 }
 #wrapper .row {
 	padding: 7vh 30px 40px 30px;
