@@ -19,7 +19,7 @@ Time: 9am - 5pm
 
 Location: University of Fine Arts, Đại học Mỹ thuật Thành phố Hồ Chí Minh, 05 Phan Dang Luu, Dist. Binh Thanh, Ho Chi Minh City
 
-Web: [www.hcmufa.edu.vn](www.hcmufa.edu.vn)
+Web: [www.hcmufa.edu.vn](https://www.hcmufa.edu.vn)
 
 Admission: Free
 

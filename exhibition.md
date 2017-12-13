@@ -36,7 +36,7 @@ Time: 8 pm
 
 Location: Trung Nguyen Cafe, 19B Pham Ngoc Thach, Dist. 1, HCMC
 
-Web: [www.trungnguyen.com.vn](www.trungnguyen.com.vn)
+Web: [www.trungnguyen.com.vn](https://www.trungnguyen.com.vn)
 
 Admission Fee: Free
 
