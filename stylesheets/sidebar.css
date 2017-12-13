@@ -39,7 +39,7 @@
 					display: block;
 					margin-top: 10%;
 					width: 300px !important;
-					float: right !important;
+					float: right;
 					position: relative;
 					right: -24px;
 		}
