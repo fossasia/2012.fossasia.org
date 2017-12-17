@@ -1,8 +1,133 @@
-.col-2 ul a {
-    margin-top: 15px;
-    color: rgb(51, 51, 70) !important;
-    font: normal normal 600 normal 11px / 11px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
+
+#FOOTER_1 {
+    box-sizing: border-box;
+    color: #f5f5f5;
+    min-height: 452px;
+    text-size-adjust: 100%;
+    width: 100%;
+    column-rule-color: rgb(119, 119, 119);
+    perspective-origin: 674.5px 226px;
+    transform-origin: 674.5px 226px;
+    background: rgb(245, 245, 245) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(119, 119, 119);
+    font: normal normal normal normal 14px / 24px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    outline: rgb(119, 119, 119) none 0px;
+    padding: 72px 0px 36px;
+}/*#FOOTER_1*/
+
+#DIV_2 {
+    box-sizing: border-box;
+    color: rgb(119, 119, 119);
+    min-height: 344px;
+    text-size-adjust: 100%;
+    width: 90%;
+    column-rule-color: rgb(119, 119, 119);
+    perspective-origin: 585px 172px;
+    transform-origin: 585px 172px;
+    border: 0px none rgb(119, 119, 119);
+    font: normal normal normal normal 14px / 24px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 7%;
+    margin-top: 0;
+    margin-bottom: 0;
+    outline: rgb(119, 119, 119) none 0px;
+    padding: 15px;
+    padding-bottom: 0;
+    padding-top: 0;
+}/*#DIV_2*/
+
+#DIV_2:after {
+    box-sizing: border-box;
+    clear: both;
+    color: rgb(119, 119, 119);
+    content: ' ';
+    display: table;
+    text-size-adjust: 100%;
+    column-rule-color: rgb(119, 119, 119);
+    border: 0px none rgb(119, 119, 119);
+    font: normal normal normal normal 14px / 24px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    outline: rgb(119, 119, 119) none 0px;
+}/*#DIV_2:after*/
+
+#DIV_2:before {
+    box-sizing: border-box;
+    color: rgb(119, 119, 119);
+    content: ' ';
+    display: table;
+    text-size-adjust: 100%;
+    column-rule-color: rgb(119, 119, 119);
+    border: 0px none rgb(119, 119, 119);
+    font: normal normal normal normal 14px / 24px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    outline: rgb(119, 119, 119) none 0px;
+}/*#DIV_2:before*/
+
+#DIV_3 {
+    box-sizing: border-box;
+    color: rgb(119, 119, 119);
+    height: 275px;
+    text-size-adjust: 100%;
+    width: 100%;
+    column-rule-color: rgb(119, 119, 119);
+    perspective-origin: 585px 137.5px;
+    transform-origin: 585px 137.5px;
+    border: 0px none rgb(119, 119, 119);
+    font: normal normal normal normal 14px / 24px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px -15px;
+    outline: rgb(119, 119, 119) none 0px;
+}/*#DIV_3*/
+
+#DIV_3:after {
+    box-sizing: border-box;
+    clear: both;
+    color: rgb(119, 119, 119);
+    content: ' ';
+    display: table;
+    text-size-adjust: 100%;
+    column-rule-color: rgb(119, 119, 119);
+    border: 0px none rgb(119, 119, 119);
+    font: normal normal normal normal 14px / 24px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    outline: rgb(119, 119, 119) none 0px;
+}/*#DIV_3:after*/
+
+#DIV_3:before {
+    box-sizing: border-box;
+    color: rgb(119, 119, 119);
+    content: ' ';
+    display: table;
+    text-size-adjust: 100%;
+    column-rule-color: rgb(119, 119, 119);
+    border: 0px none rgb(119, 119, 119);
+    font: normal normal normal normal 14px / 24px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    outline: rgb(119, 119, 119) none 0px;
+}/*#DIV_3:before*/
+
+#DIV_4 {
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(119, 119, 119);
+    float: left;
+    height: 200px;
+    left: 0px;
+    min-height: 1px;
+    position: relative;
+    right: 0px;
+    text-size-adjust: 100%;
+    top: 0px;
+    width: 16.66666667%;
+    column-rule-color: rgb(119, 119, 119);
+    perspective-origin: 97.5px 100px;
+    transform-origin: 97.5px 100px;
+    border: 0px none rgb(119, 119, 119);
+    font: normal normal normal normal 14px / 24px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    outline: rgb(119, 119, 119) none 0px;
+    padding: 0px 12px;
+}/*#DIV_4*/
+
+@media only screen and (max-width: 950px) {
+#DIV_2 {
+  width: 98% !important;
+  margin: 2% !important;
+  margin-top: 0 !important;
+
 }
 .col-2 ul a:visited {
     color: rgb(51, 51, 70) !important;
