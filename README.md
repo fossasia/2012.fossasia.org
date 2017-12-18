@@ -36,3 +36,16 @@ This website is using Jekyll, if you've never used it before read this section t
 `stylesheets` - folder with all CSS files. Custom and not only.
 
 There are also markdown files which are the pure content of the website. The main is `index.md` containing the default content.
+
+Running
+---
+Use the following command to run -
+
+```sh
+jekyll serve --baseurl=""
+```
+then go to http://localhost:4000 to view the site
+
+Live
+---
+http://fossasia.github.io/2012.fossasia.org
