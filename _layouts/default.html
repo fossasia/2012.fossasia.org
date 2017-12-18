@@ -15,5 +15,33 @@
     </div>
     {% include footer.html %}
     <script src="javascripts/smoothscroll.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
+        <script src="https://fossasia.org/js/bootstrap.min.js"></script>
+        <script src="https://fossasia.org/js/skrollr.min.js"></script>
+        <script src="https://fossasia.org/js/spectragram.min.js"></script>
+        <script src="https://fossasia.org/js/flexslider.min.js"></script>
+        <script src="https://fossasia.org/js/jquery.plugin.min.js"></script>
+        <script src="https://fossasia.org/js/jquery.countdown.min.js"></script>
+        <script src="https://fossasia.org/js/lightbox.min.js"></script>
+        <script src="https://fossasia.org/js/smooth-scroll.min.js"></script>
+        <script src="https://fossasia.org/js/tweetsfetcher.js"></script>
+        <script src="https://fossasia.org/js/placeholders.min.js"></script>
+        <script src="https://fossasia.org/js/scripts.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('#map').addClass('scrolloff');                // set the mouse events to none when doc is ready
+                $('#overlay').on("mouseup",function(){          // lock it when mouse up
+                $('#map').addClass('scrolloff');
+            //somehow the mouseup event doesn't get call...
+                });
+                $('#overlay').on("mousedown",function(){        // when mouse down, set the mouse events free
+                $('#map').removeClass('scrolloff');
+                });
+                $("#map").mouseleave(function () {              // becuase the mouse up doesn't work...
+                $('#map').addClass('scrolloff');            // set the pointer events to none when mouse leaves the map area
+                                                        // or you can do it on some other event
+        });
+        });
+      </script>
   </body>
 </html>
