@@ -129,6 +129,11 @@
   margin-top: 0 !important;
 
 }
+.col-2 ul a {
+margin-top: 15px;
+color: rgb(51, 51, 70) !important;
+font: normal normal 600 normal 11px / 11px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+text-transform: uppercase;}
 .col-2 ul a:visited {
     color: rgb(51, 51, 70) !important;
 }
