@@ -1,3 +1,6 @@
 .overlay-nav{
 	background-color: #d45c34;
 }
+.menu li a{
+	font-size: 14px;
+}
