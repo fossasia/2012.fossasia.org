@@ -1,13 +1,15 @@
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+    <script src="javascripts/navigationbar.js"></script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="{{ site.description }}">
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{{ site.description }}">
+    
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="shortcut icon" href="images/fever_favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
@@ -28,5 +30,4 @@
     <link href="https://fossasia.org/css/lightbox.min.css" rel="stylesheet" type="text/css" media="all"/>
     <link href="https://fossasia.org/css/theme-lava.css" rel="stylesheet" type="text/css" media="all"/>
     <link href="https://fossasia.org/css/custom.css" rel="stylesheet" type="text/css" media="all"/>
-    <script src="javascripts/navigationbar.js"></script>
 </head>
