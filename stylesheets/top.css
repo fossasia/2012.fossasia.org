@@ -40,11 +40,11 @@
   left: 0;
   right: 0;
   margin: auto;
-  top: 75%;
+  top: 550px;
 }
 .btn-top {
   display: inline-block;
-  min-width: 190px;
+  min-width: 150px;
   padding: 13px 0 14px 0;
   color: #fff;
   border-radius: 25px;
