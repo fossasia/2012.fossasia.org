@@ -139,6 +139,7 @@ Students, amateurs and professionals with a design/art background or in computer
 -documenting the process in a way that it can be used in future projects
 
 ![FOSSASIA Group](images/fossasia_group4.jpg "FOSSASIA Group")
+<br><br>
 ![FOSSASIA Group](images/fossasia_group5.jpg "FOSSASIA Group")
 
 
