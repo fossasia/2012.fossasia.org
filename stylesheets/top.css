@@ -40,11 +40,11 @@
   left: 0;
   right: 0;
   margin: auto;
-  top: 75%;
+  top: 550px;
 }
 .btn-top {
   display: inline-block;
-  min-width: 190px;
+  min-width: 150px;
   padding: 13px 0 14px 0;
   color: #fff;
   border-radius: 25px;
@@ -79,13 +79,3 @@ hr {
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
-
-@media (max-width:1150px) and (min-width: 768px) {
-  .buttons-top {
-    top: 90%;
-  }
-}
-@media (max-width: 768px) {
-  .buttons-top {
-    top: 100%;
-  }
