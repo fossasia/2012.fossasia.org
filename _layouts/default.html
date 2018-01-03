@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html>
-  {% include head.html %}
-  <body>
-    {% include header.html %}
-    {% include top.html %}
-    <div id="wrapper" class="container">
-      <div class="row">
-        <div id="content">
-          <div class="page-content">
-            <div class="wrapper">{{ content }}</div>
-          </div>
+    {% include head.html %}
+    <body>
+        {% include header.html %}
+        {% include top.html %}
+        <div id="wrapper" class="container">
+            <div class="row">
+                <div id="content">
+                    <div class="page-content">
+                        <div class="wrapper">{{ content }}</div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    {% include footer.html %}
-    <script src="javascripts/smoothscroll.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
+        {% include footer.html %}
+        <script src="javascripts/smoothscroll.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
         <script src="https://fossasia.org/js/bootstrap.min.js"></script>
         <script src="https://fossasia.org/js/skrollr.min.js"></script>
         <script src="https://fossasia.org/js/spectragram.min.js"></script>
@@ -29,19 +29,24 @@
         <script src="https://fossasia.org/js/scripts.js"></script>
         <script>
             $(document).ready(function () {
-                $('#map').addClass('scrolloff');                // set the mouse events to none when doc is ready
-                $('#overlay').on("mouseup",function(){          // lock it when mouse up
+                // set the mouse events to none when doc is ready
                 $('#map').addClass('scrolloff');
-            //somehow the mouseup event doesn't get call...
+                // lock it when mouse up
+                $('#overlay').on("mouseup", function() {
+                    //somehow the mouseup event doesn't get call...
+                    $('#map').addClass('scrolloff');
                 });
-                $('#overlay').on("mousedown",function(){        // when mouse down, set the mouse events free
-                $('#map').removeClass('scrolloff');
+                // when mouse down, set the mouse events free
+                $('#overlay').on("mousedown",function() {
+                    $('#map').removeClass('scrolloff');
                 });
-                $("#map").mouseleave(function () {              // becuase the mouse up doesn't work...
-                $('#map').addClass('scrolloff');            // set the pointer events to none when mouse leaves the map area
-                                                        // or you can do it on some other event
-        });
-        });
-      </script>
-  </body>
+                // becuase the mouse up doesn't work...
+                $("#map").mouseleave(function () {
+                    // set the pointer events to none when mouse leaves the map area
+                    $('#map').addClass('scrolloff');
+                    // or you can do it on some other event
+                });
+            });
+        </script>
+    </body>
 </html>
