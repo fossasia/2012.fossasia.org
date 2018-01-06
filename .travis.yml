@@ -1,11 +1,17 @@
+# route our build to the container-based infrastructure for a faster build 
+sudo: false
+
+#This line tells Travis to use a Ruby build container. It gives our script access to Bundler, RubyGems, and a Ruby runtime.
 language: ruby
 
+# install github pages without documentation
 before_install:
   - gem install github-pages --no-rdoc --no-ri
 
 rvm:
-- 2.1
+- 2.2
 script: jekyll build
+
 
 branches:
   only:
