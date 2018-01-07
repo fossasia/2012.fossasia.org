@@ -35,12 +35,7 @@
   margin-top: 0;
 }
 .buttons-top {
-  position: absolute;
   text-align: center;
-  left: 0;
-  right: 0;
-  margin: auto;
-  top: 550px;
 }
 .btn-top {
   display: inline-block;
