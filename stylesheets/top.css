@@ -75,7 +75,9 @@ hr {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-
+.contact-methods span {
+    font-size: 14px !important;
+}
 
 /*@media (min-width: 768px) {
   .buttons-top {
