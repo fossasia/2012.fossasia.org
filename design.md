@@ -7,7 +7,7 @@ title: DESIGN AND MAKER CAMPS | FOSSASIA
 
 Two Open Design Camps offers designers, artists and developers a chance to share ideas, concepts and tools in Ho Chi Minh City and Cantho City.
 
-![Group1](images/group1.jpg "Group1")
+<p><img data-src="images/group1.jpg" alt="Group1" title="Group1"></p>
 
 ## OPEN DESIGN CAMP SAIGON
 

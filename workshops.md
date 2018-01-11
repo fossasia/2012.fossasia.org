@@ -11,7 +11,7 @@ title: Workshops | FOSSASIA
 
 The first week gives Vietnamese designers in Ho Chi Minh City the opportunity to get to know and learn from international designers from Europe. Introductory workshops will offer local designers the chance to dig into new design concepts and learn about new Open Source software tools used in todays European art and design scene. These workshops are a preparation for the second intensive work week. At the end of the week an exhibition dedicated to Open Design will be opened.
 
-![Group](images/group.jpg "Group")
+<p><img data-src="images/group.jpg" alt="Group" title="Group"></p>
 
 Teaching Designers: Pierre Marchand, Femke Snelting, Alexandre Leray, Stephanie Villayphou, Pierre Huyghebaert, David Crossland
 
@@ -27,7 +27,7 @@ Time: Morning 9am-12pm, Afternoon 2-5pm
 
 Place of workshop: University Ho Chi Minh City (tbd)
 
-![Open Source Designer Workshop](images/opendesignevent1.jpg "Open Source Designer Workshop")
+<p><img data-src="images/opendesignevent1.jpg" alt="Open Source Designer Workshop" title="Open Source Designer Workshop"></p>
 
 ## WEEK 1/WORKSHOPS AT COMPANIES AND UNIVERSITIES
 
@@ -44,7 +44,7 @@ Wednesday, 6 April: Workshop Sessions / Visit to Designer Labs and companies in 
 Contact for Interested Companies and Universities
 Companies and universities interested in meetings with International designers please contact Dang, Hong Phuc.
 
-![Open Source Designer Workshop](images/OpenSourcePublishingWorkshop.jpg "Open Source Publishing Workshop")
+<p><img data-src="images/OpenSourcePublishingWorkshop.jpg" alt="Open Source Designer Workshop" title="Open Source Publishing Workshop"></p>
 
 ## WEEK 2/WORKSHOP 1: FONT DESIGN (TYPOGRAPHY)
 
