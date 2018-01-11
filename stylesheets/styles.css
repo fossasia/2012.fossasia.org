@@ -246,3 +246,10 @@ hr {
     color:#444;
   }
 }
+
+.icon{
+transition: color 0.5s ease;
+}
+.icon:hover{
+color: #856A63
+}
