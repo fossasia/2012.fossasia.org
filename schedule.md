@@ -23,7 +23,7 @@ Designers, university lecturers, students, artists, local open source communitie
 
 -offering Vietnamese to get to know European designers and learn about their design practices
 
-![Speaking](images/speaking.jpg "Speaking")
+<p><img data-src="images/speaking.jpg" alt="Speaking" title="Speaking"></p>
 
 <div class="table-div">
 <table class="tg" style="undefined;table-layout: fixed; width: 777px">
@@ -114,7 +114,7 @@ Designers, university lecturers, students, artists, local open source communitie
 </table>
 </div>
 
-![Working](images/working.jpg "Working")
+<p><img data-src="images/working.jpg" alt="Working" title="Working"></p>
 
 ## Open Design Week 2
 
@@ -138,9 +138,9 @@ Students, amateurs and professionals with a design/art background or in computer
 
 -documenting the process in a way that it can be used in future projects
 
-![FOSSASIA Group](images/fossasia_group4.jpg "FOSSASIA Group")
-<br><br>
-![FOSSASIA Group](images/fossasia_group5.jpg "FOSSASIA Group")
+<p><img data-src="images/fossasia_group4.jpg" alt="FOSSASIA Group" title="FOSSASIA Group"><br>
+<br><br><br>
+<img data-src="images/fossasia_group5.jpg" alt="FOSSASIA Group" title="FOSSASIA Group"></p>
 
 
 <div class="table-div">
