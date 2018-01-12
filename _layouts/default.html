@@ -14,19 +14,20 @@
             </div>
         </div>
         {% include footer.html %}
-        <script src="javascripts/smoothscroll.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
-        <script src="https://fossasia.org/js/bootstrap.min.js"></script>
-        <script src="https://fossasia.org/js/skrollr.min.js"></script>
-        <script src="https://fossasia.org/js/spectragram.min.js"></script>
-        <script src="https://fossasia.org/js/flexslider.min.js"></script>
-        <script src="https://fossasia.org/js/jquery.plugin.min.js"></script>
-        <script src="https://fossasia.org/js/jquery.countdown.min.js"></script>
-        <script src="https://fossasia.org/js/lightbox.min.js"></script>
-        <script src="https://fossasia.org/js/smooth-scroll.min.js"></script>
-        <script src="https://fossasia.org/js/tweetsfetcher.js"></script>
-        <script src="https://fossasia.org/js/placeholders.min.js"></script>
-        <script src="https://fossasia.org/js/scripts.js"></script>
+        <script type="text/javascript" src="javascripts/smoothscroll.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
+        <script type="text/javascript" src="https://fossasia.org/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="https://fossasia.org/js/skrollr.min.js"></script>
+        <script type="text/javascript" src="https://fossasia.org/js/spectragram.min.js"></script>
+        <script type="text/javascript" src="https://fossasia.org/js/flexslider.min.js"></script>
+        <script type="text/javascript" src="https://fossasia.org/js/jquery.plugin.min.js"></script>
+        <script type="text/javascript" src="https://fossasia.org/js/jquery.countdown.min.js"></script>
+        <script type="text/javascript" src="https://fossasia.org/js/lightbox.min.js"></script>
+        <script type="text/javascript" src="https://fossasia.org/js/smooth-scroll.min.js"></script>
+        <script type="text/javascript" src="https://fossasia.org/js/tweetsfetcher.js"></script>
+        <script type="text/javascript" src="https://fossasia.org/js/placeholders.min.js"></script>
+        <script type="text/javascript" src="javascripts/inview.js"></script>
+        <script type="text/javascript" src="https://fossasia.org/js/scripts.js"></script>
         <script>
             $(document).ready(function () {
                 // set the mouse events to none when doc is ready
@@ -46,6 +47,9 @@
                     $('#map').addClass('scrolloff');
                     // or you can do it on some other event
                 });
+                
+                // Lazy load images
+                $("img").unveil(200);
             });
         </script>
     </body>
