@@ -32,6 +32,18 @@
   border: none;
 }
 
+.schedule-title {
+  margin-right: 20px;
+}
+
+.schedule-text {
+  margin-right: 15px;
+}
+
+.marker-pin {
+  margin-left: 15px;
+}
+
 .tweets-feed {
   color: #FFFFFF;
   line-height: 25px;
