@@ -1377,7 +1377,7 @@
                     </div>
                 </div>
             </div>
-            <div class="map-holder zoom-off col-md-6 col-sm-4">
+            <div class="map-holder zoom-off col-md-6 col-sm-4 maps">
                 <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=105.19409179687501%2C9.638661389766769%2C107.29248046875001%2C11.315787392354615&amp;layer=mapnik"></iframe>
             </div>
         </section>
@@ -1518,6 +1518,15 @@
                     $('#map').addClass('scrolloff'); // set the pointer events to none when mouse leaves the map area
                     // or you can do it on some other event
                 });
+
+                // disable mouse control on map unless clicked
+                $('.maps').click(function () {
+                    $('.maps iframe').css("pointer-events", "auto");
+                });
+                $(".maps").mouseleave(function () {
+                    $('.maps iframe').css("pointer-events", "none");
+                });
+              
             });
             $('.map-holder').click(function () {
                 $(this).removeClass('zoom-off');
