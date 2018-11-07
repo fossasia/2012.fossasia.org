@@ -6,7 +6,7 @@
  *  Please, keep this header if you want to use this code. Thank you ;)
  ******************************************************************************/
 
-window.loklakFetcher = (function() {
+window.loklakFetcher = (function () {
   var script = null;
 
   var loklakFetcher = {
@@ -17,56 +17,57 @@ window.loklakFetcher = (function() {
      * @param  {function} callback Function called after getting the results.
      *                             These are passed as first argument
      */
-    getTweets: function(options, callback) {
-      if(typeof options === 'function') { // A callback has been provided as 2nd
-                                          // argument (no options)
+    getTweets: function (options, callback) {
+      if (typeof options === 'function') { // A callback has been provided as 2nd
+        // argument (no options)
         callback = options;
         options = {};
-      } else if(callback === undefined) { // No callback has been provided, even
-                                          // as 2nd argument
+      } else if (callback === undefined) { // No callback has been provided, even
+        // as 2nd argument
         throw new Error('[LOKLAK-FETCHER] No callback provided');
       }
 
-      var settings = [ 'count', 'source', 'fields', 'limit', 'tzOffset',
-        'minified' ];  // Field names for all the possible parameters
-      var defaults = [ 100, 'cache', '', '', 0, true ];  // Default values
+      var settings = ['count', 'source', 'fields', 'limit', 'tzOffset',
+        'minified'
+      ]; // Field names for all the possible parameters
+      var defaults = [100, 'cache', '', '', 0, true]; // Default values
 
       // Check if no options have been provided
-      if(typeof options === 'undefined') {
+      if (typeof options === 'undefined') {
         options = {}; // Create 'options' to avoid ReferenceErrors later
       }
 
       //Check if there are any data elements set
       var tweetsEl = document.getElementById("tweets");
       var dataset = tweetsEl.dataset;
-      if(dataset.count) {
+      if (dataset.count) {
         options[settings[0]] = dataset.count; //count is index 0
       }
 
       var query;
 
-      if(dataset.query) {
-        query = dataset.query.replace(/\s/gi, '%20').replace(/#/gi, '%23').replace('_',""); 
+      if (dataset.query) {
+        query = dataset.query.replace(/\s/gi, '%20').replace(/#/gi, '%23').replace('_', "");
         //replace spaces and hashtags in URL
       } else {
         //query = "fossasia";
       }
 
-      if(dataset.start) {
+      if (dataset.start) {
         query = query + "%20since:" + dataset.start;
       }
 
-      if(dataset.end) {
+      if (dataset.end) {
         query = query + "%20until:" + dataset.end;
       }
 
-      if(dataset.from) {
+      if (dataset.from) {
         query = query + "%20from:" + dataset.from;
       }
 
       // Write unset options as their default
-      for(var index in settings) {
-        if(options[settings[index]] === undefined) {
+      for (var index in settings) {
+        if (options[settings[index]] === undefined) {
           options[settings[index]] = defaults[index];
         }
       }
@@ -80,10 +81,10 @@ window.loklakFetcher = (function() {
         '&fields=' + options.fields +
         '&limit=' + options.limit +
         '&timezoneOffset=' + options.tzOffset +
-        '&minified=' + options.minified ;
+        '&minified=' + options.minified;
       // If the script element for JSONP already exists, remove it
-      
-      if(script !== null) {
+
+      if (script !== null) {
         document.head.removeChild(script);
       }
 
@@ -92,7 +93,7 @@ window.loklakFetcher = (function() {
        * first and only argument.
        * @param  {object} data JSON coming from loklak's API
        */
-      this.handleData = function(data) {
+      this.handleData = function (data) {
         callback(data);
       };
 

@@ -1,10 +1,10 @@
-$(document).ready(function() {
+$(document).ready(function () {
 
-	"use strict";
+    "use strict";
 
     /************** Nav Scripts **************/
 
-    $(window).scroll(function() {
+    $(window).scroll(function () {
         if ($(window).scrollTop() > 1) {
             $('nav').addClass('sticky-nav');
         } else {
@@ -12,7 +12,7 @@ $(document).ready(function() {
         }
     });
 
-    $('a').click(function() {
+    $('a').click(function () {
         if ($(this).attr('href') === '#') {
             return false;
         }
@@ -26,13 +26,13 @@ $(document).ready(function() {
 
     // Mobile menu toggle
 
-    $('.mobile-menu-toggle').click(function() {
+    $('.mobile-menu-toggle').click(function () {
         $('nav').toggleClass('open-menu');
     });
 
     // Sidebar menu toggle
 
-    $('.sidebar-menu-toggle').click(function() {
+    $('.sidebar-menu-toggle').click(function () {
         if ($('.instagram-sidebar').hasClass('show-sidebar')) {
             $('.instagram-sidebar').toggleClass('show-sidebar');
             $('.sidebar-menu').toggleClass('show-sidebar');
@@ -43,7 +43,7 @@ $(document).ready(function() {
         }
     });
 
-    $('.instagram-toggle').click(function() {
+    $('.instagram-toggle').click(function () {
         if ($('.sidebar-menu').hasClass('show-sidebar')) {
             $('.sidebar-menu').toggleClass('show-sidebar');
             $('.instagram-sidebar').toggleClass('show-sidebar');
@@ -54,7 +54,7 @@ $(document).ready(function() {
         }
     });
 
-    $('.main-container').click(function() {
+    $('.main-container').click(function () {
         if ($('.sidebar-menu').hasClass('show-sidebar')) {
             $('.sidebar-menu').toggleClass('show-sidebar');
             $('.main-container').toggleClass('reveal-sidebar');
@@ -84,7 +84,7 @@ $(document).ready(function() {
 
     /************** Divider Scripts **************/
 
-    $('.background-image-holder').each(function() {
+    $('.background-image-holder').each(function () {
 
         // Append background-image <img>'s as li item CSS background for better responsive performance
         var imgSrc = $(this).children('.background-image').attr('src');
@@ -101,7 +101,7 @@ $(document).ready(function() {
         clientID: 'fedaafacf224447e8aef74872d3820a1'
     };
 
-    $('.instafeed').each(function() {
+    $('.instafeed').each(function () {
         $(this).children('ul').spectragram('getUserFeed', {
             query: $(this).attr('data-user-name')
         });
@@ -109,7 +109,7 @@ $(document).ready(function() {
 
     /************** Fullscreen Elements **************/
 
-    $('.fullscreen-element').each(function() {
+    $('.fullscreen-element').each(function () {
         if ($(window).height() < 768) {
             $(this).css('height', 900);
         } else {
@@ -123,7 +123,7 @@ $(document).ready(function() {
 
     /************** Countdown Timer **************/
 
-    $('.countdown').each(function() {
+    $('.countdown').each(function () {
         $(this).countdown({
             until: new Date($(this).attr('data-date'))
         });
@@ -131,11 +131,11 @@ $(document).ready(function() {
 
     /************** Map Interaction **************/
 
-    $('.fullwidth-map').click(function() {
+    $('.fullwidth-map').click(function () {
         $(this).removeClass('screen');
     });
 
-    $(window).scroll(function() {
+    $(window).scroll(function () {
         if (!$('.fullwidth-map').hasClass('screen')) {
             $('.fullwidth-map').addClass('screen');
         }
@@ -143,7 +143,7 @@ $(document).ready(function() {
 
     /************** Contact Form Code **************/
 
-    $('form.email-form').submit(function(e) {
+    $('form.email-form').submit(function (e) {
         // return false so form submits through jQuery rather than reloading page.
         if (e.preventDefault) e.preventDefault();
         else e.returnValue = false;
@@ -158,16 +158,16 @@ $(document).ready(function() {
         }
 
 
-        $(thisForm).find('.validate-required').each(function(){
-            if($(this).val() === ''){
+        $(thisForm).find('.validate-required').each(function () {
+            if ($(this).val() === '') {
                 $(this).addClass('field-error');
                 error = 1;
-            }else{
+            } else {
                 $(this).removeClass('field-error');
             }
         });
 
-        $(thisForm).find('.validate-email').each(function() {
+        $(thisForm).find('.validate-email').each(function () {
             if (!(/(.+)@(.+){2,}\.(.+){2,}/.test($(this).val()))) {
                 $(this).addClass('field-error');
                 error = 1;
@@ -189,7 +189,7 @@ $(document).ready(function() {
                 type: "POST",
                 url: "mail/mail.php",
                 data: thisForm.serialize(),
-                success: function(response) {
+                success: function (response) {
                     // Swiftmailer always sends back a number representing numner of emails sent.
                     // If this is numeric (not Swift Mailer error text) AND greater than 0 then show success message.
                     $(thisForm).find('.form-loading').remove();
@@ -198,7 +198,7 @@ $(document).ready(function() {
                         if (parseInt(response) > 0) {
                             thisForm.find('.form-success').fadeIn(1000);
                             thisForm.find('.form-error').fadeOut(1000);
-                            setTimeout(function() {
+                            setTimeout(function () {
                                 thisForm.find('.form-success').fadeOut(500);
                             }, 5000);
                         }
@@ -227,28 +227,28 @@ $(document).ready(function() {
     });
 
     /************** Speaker Bio tooltip script **************/
-    $('.speaker-column').on("mouseover", function(){
+    $('.speaker-column').on("mouseover", function () {
 
         var parentRef = $(this).parent();
         var tooltipRef = $(this).children('.speaker-bio-tooltip');
         var tooltipPinRef = $(this).children('.speaker-bio-tooltip-pin');
 
         // Calculate offset
-        var currentDivPos = $(this).position();    
-        var parentDivPos = parentRef.position();  
-        var left = -1 * (currentDivPos.left - parentDivPos.left ) + "px";
+        var currentDivPos = $(this).position();
+        var parentDivPos = parentRef.position();
+        var left = -1 * (currentDivPos.left - parentDivPos.left) + "px";
 
-        tooltipPinRef.css('display','block');
+        tooltipPinRef.css('display', 'block');
         tooltipRef.css({
-            'width':parentRef.width(),
-            'left':left
+            'width': parentRef.width(),
+            'left': left
         }).slideDown(100);
     });
 
-    $('.speaker-column').on("mouseleave", function(){
+    $('.speaker-column').on("mouseleave", function () {
 
-        $(this).children('.speaker-bio-tooltip-pin').css('display','none');
-        $(this).children('.speaker-bio-tooltip').css('display','none');
+        $(this).children('.speaker-bio-tooltip-pin').css('display', 'none');
+        $(this).children('.speaker-bio-tooltip').css('display', 'none');
 
     })
 
@@ -256,9 +256,9 @@ $(document).ready(function() {
 
 });
 
-$(window).load(function() {
+$(window).load(function () {
 
-	"use strict";
+    "use strict";
 
     var navHeight = $('nav').outerHeight();
     $('.inner-link').smoothScroll({
@@ -282,7 +282,7 @@ $(window).load(function() {
         prefix = '-webkit-';
     }
 
-    $('.parallax-background').each(function() {
+    $('.parallax-background').each(function () {
         $(this).attr('data-bottom-top', prefix + 'transform: translate3d(0px,-100px, 0px)');
         $(this).attr('data-center', prefix + 'transform: translate3d(0px,0px, 0px)');
         $(this).attr('data-top-bottom', prefix + 'transform: translate3d(0px,100px, 0px)');
@@ -302,9 +302,9 @@ $(window).load(function() {
 
     $('.instagram li a').attr('title', '');
 
-    setTimeout(function() {
+    setTimeout(function () {
 
-        $('.instagram li').each(function() {
+        $('.instagram li').each(function () {
 
             // Append background-image <img>'s as li item CSS background for better responsive performance
             var imgSrc = $(this).find('img').attr('src');
@@ -318,14 +318,14 @@ $(window).load(function() {
 
     // Mailchimp/Campaign Monitor Mail List Form Scripts
 
-    $('form.mail-list-signup').on('submit', function() {
+    $('form.mail-list-signup').on('submit', function () {
 
         var iFrame = $(this).closest('section, header').find('iframe.mail-list-form'),
 
             userEmail = $(this).find('.signup-email-field').val(),
-        userFullName = $(this).find('.signup-name-field').val(),
-        userFirstName = $(this).find('.signup-first-name-field').val(),
-        userLastName = $(this).find('.signup-last-name-field').val();
+            userFullName = $(this).find('.signup-name-field').val(),
+            userFirstName = $(this).find('.signup-first-name-field').val(),
+            userLastName = $(this).find('.signup-last-name-field').val();
 
         iFrame.contents().find('#mce-EMAIL, #fieldEmail').val(userEmail);
         iFrame.contents().find('#mce-LNAME, #fieldLastName').val(userLastName);
@@ -336,9 +336,9 @@ $(window).load(function() {
         return false;
     });
 
-    setTimeout(function() {
+    setTimeout(function () {
         $('.loader').addClass('hide-loader');
-        setTimeout(function() {
+        setTimeout(function () {
             $('.loader').remove();
             $('.main-container').addClass('show-content');
             $('nav').addClass('show-content');
@@ -347,19 +347,18 @@ $(window).load(function() {
 
 
 });
-	//Sendy verify if email is empty
-	function isValidEmailAddress(emailAddress) {
-        var pattern = /^([a-z\d!#$%&'*+\-\/=?^_`{|}~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]+(\.[a-z\d!#$%&'*+\-\/=?^_`{|}~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]+)*|"((([ \t]*\r\n)?[ \t]+)?([\x01-\x08\x0b\x0c\x0e-\x1f\x7f\x21\x23-\x5b\x5d-\x7e\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|\\[\x01-\x09\x0b\x0c\x0d-\x7f\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))*(([ \t]*\r\n)?[ \t]+)?")@(([a-z\d\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|[a-z\d\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF][a-z\d\-._~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]*[a-z\d\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])\.)+([a-z\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|[a-z\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF][a-z\d\-._~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]*[a-z\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])\.?$/i;
-        return pattern.test(emailAddress);
-        };
+//Sendy verify if email is empty
+function isValidEmailAddress(emailAddress) {
+    var pattern = /^([a-z\d!#$%&'*+\-\/=?^_`{|}~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]+(\.[a-z\d!#$%&'*+\-\/=?^_`{|}~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]+)*|"((([ \t]*\r\n)?[ \t]+)?([\x01-\x08\x0b\x0c\x0e-\x1f\x7f\x21\x23-\x5b\x5d-\x7e\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|\\[\x01-\x09\x0b\x0c\x0d-\x7f\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))*(([ \t]*\r\n)?[ \t]+)?")@(([a-z\d\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|[a-z\d\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF][a-z\d\-._~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]*[a-z\d\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])\.)+([a-z\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|[a-z\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF][a-z\d\-._~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]*[a-z\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])\.?$/i;
+    return pattern.test(emailAddress);
+};
 
-	$('.email-subscribe').submit(function() {
-        if ($.trim($("#email").val()) === "") {
-            alert('Please enter your email address in the form');
-            return false; 
-        }
-        else if ( !isValidEmailAddress( $.trim($("#email").val())  ) ) {
-            alert("Not a valid email address");
-            return false;
-        }   
+$('.email-subscribe').submit(function () {
+    if ($.trim($("#email").val()) === "") {
+        alert('Please enter your email address in the form');
+        return false;
+    } else if (!isValidEmailAddress($.trim($("#email").val()))) {
+        alert("Not a valid email address");
+        return false;
+    }
 });
