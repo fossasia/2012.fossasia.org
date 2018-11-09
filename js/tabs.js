@@ -1,7 +1,7 @@
 'use strict';
 var tabs, i, myTabs;
 
-tabs = function(options) {
+tabs = function (options) {
   var goToTab, handleClick, init;
   var el = document.querySelector(options.el);
   var tabNavigationLinks = el.querySelectorAll(options.tabNavigationLinks);
@@ -9,9 +9,9 @@ tabs = function(options) {
   var activeIndex = -1;
   var initCalled = false;
 
-  goToTab = function(index) {
+  goToTab = function (index) {
     if (index !== activeIndex && index >= 0 && index <= tabNavigationLinks.length) {
-      if(activeIndex >= 0) {
+      if (activeIndex >= 0) {
         tabNavigationLinks[activeIndex].classList.remove('is-active');
         tabContentContainers[activeIndex].classList.remove('is-active');
       }
@@ -20,13 +20,13 @@ tabs = function(options) {
       activeIndex = index;
     }
   };
-  handleClick = function(link, index) {
-    link.addEventListener('click', function(e) {
+  handleClick = function (link, index) {
+    link.addEventListener('click', function (e) {
       e.preventDefault();
       goToTab(index);
     });
   };
-  init = function() {
+  init = function () {
     var link;
 
     if (!initCalled) {

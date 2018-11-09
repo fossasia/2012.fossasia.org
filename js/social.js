@@ -1,7 +1,7 @@
 'use strict';
 
-$(document).ready(function() {
-  $('.social-button').click(function() {
+$(document).ready(function () {
+  $('.social-button').click(function () {
     var link = $(this).parent().parent().find('input.speakers-inputbox').val();
     var source = $(this).attr('class').split(' ')[0].split('-')[0];
 
