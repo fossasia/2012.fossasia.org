@@ -30,7 +30,7 @@ $(".sidebar-menu-toggle").click(function(){
                 $(".sidebar-menu-toggle").toggleClass('rotated').toggleClass("sidebar-btn-color");
                 $(".main-container").click(function(){
                     debugger;
-                    if($(".main-container").hasClass("reveal-sidebar"))
+                    if(!$(".main-container").hasClass("reveal-sidebar"))
                         $(".sidebar-menu-toggle").toggleClass('rotated');
                         $(".sidebar-menu-toggle").removeClass("sidebar-btn-color");
                 })
