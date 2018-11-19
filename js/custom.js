@@ -29,6 +29,7 @@ $(".sidebar-menu-toggle").click(function(){
              if(!$(".sidebar-menu-toggle").hasClass("show-sidebar")){    // make sure sidebar-menu-toggle-anim class doesn't clash with sidebar-menu-toggle-anim-reverse
                 $(".sidebar-menu-toggle").toggleClass('rotated').toggleClass("sidebar-btn-color");
                 $(window).click(function(){
+                    debugger
                     if($(".sidebar-menu-toggle").hasClass("show-sidebar")){
                         $(".sidebar-menu-toggle").toggleClass('rotated');
                         $(".sidebar-menu-toggle").removeClass("sidebar-btn-color");
