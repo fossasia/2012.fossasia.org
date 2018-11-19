@@ -26,10 +26,10 @@ $('.map-holder').click(function () {
 });
 
 $(".sidebar-menu-toggle").click(function(){    
-             if(!$(".sidebar-menu").hasClass("show-sidebar")){    // make sure sidebar-menu-toggle-anim class doesn't clash with sidebar-menu-toggle-anim-reverse
+             if(!$(".main-container").hasClass("reveal-sidebar")){    // make sure sidebar-menu-toggle-anim class doesn't clash with sidebar-menu-toggle-anim-reverse
                 $(".sidebar-menu-toggle").toggleClass('rotated').toggleClass("sidebar-btn-color");
                 $(".main-container").click(function(){
-                    if($(".sidebar-menu").hasClass("show-sidebar")){
+                    if($(".main-container").hasClass("reveal-sidebar")){
                         $(".sidebar-menu-toggle").toggleClass('rotated');
                         $(".sidebar-menu-toggle").removeClass("sidebar-btn-color");
                     }
