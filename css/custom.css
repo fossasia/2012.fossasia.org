@@ -290,4 +290,6 @@ a:focus, a:hover {
     transform: rotate(90deg);
     animation-duration: 1s;
 }
-
+.sidebar-btn-color{
+  color: #fff;
+}
