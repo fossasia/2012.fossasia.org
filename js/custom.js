@@ -39,6 +39,5 @@ $(".sidebar-menu-toggle").click(function(){
              else{
                 $(".sidebar-menu-toggle").toggleClass('rotated');
                 $(".sidebar-menu-toggle").removeClass("sidebar-btn-color");
-                $(".main-container").off('click');
              }
         });
