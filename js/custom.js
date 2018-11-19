@@ -34,6 +34,6 @@ $(".sidebar-menu-toggle").click(function(){
              }
              else{
                 debugger;
-                $(".sidebar-menu-toggle").toggleClass('rotated').toggleClass('sidebar-menu-toggle-anim-reverse');
+                $(".sidebar-menu-toggle").toggleClass('rotated');
              }
         });
