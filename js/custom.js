@@ -28,9 +28,11 @@ $('.map-holder').click(function () {
 $(".sidebar-menu-toggle").click(function(){    
              if(!$(".sidebar-menu-toggle").hasClass("show-sidebar")){    // make sure sidebar-menu-toggle-anim class doesn't clash with sidebar-menu-toggle-anim-reverse
                 $(".sidebar-menu-toggle").toggleClass('rotated');
+                $(".sidebar-menu-toggle").css("color","#fff");
              }
              else{
                 debugger;
                 $(".sidebar-menu-toggle").toggleClass('rotated');
+                $(".sidebar-menu-toggle").removeAttr("color");
              }
         });
