@@ -33,7 +33,8 @@ $(".sidebar-menu-toggle").click(function(){
              }
              else{
                 $(".sidebar-menu-toggle").removeClass('sidebar-menu-toggle-anim');            // make sure sidebar-menu-toggle-anim-reverse class doesn't clash with sidebar-menu-toggle-anim
-                $(".sidebar-menu-toggle").css("color","#333333");
+                debugger;
+                $(".sidebar-menu-toggle").removeAttr("color");
                 $(".sidebar-menu-toggle").toggleClass('rotated').toggleClass('sidebar-menu-toggle-anim-reverse');
              }
         });
