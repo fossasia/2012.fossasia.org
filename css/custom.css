@@ -291,5 +291,5 @@ a:focus, a:hover {
     animation-duration: 1s;
 }
 .sidebar-btn-color{
-  color: #fff;
+  color: #fff !important;
 }

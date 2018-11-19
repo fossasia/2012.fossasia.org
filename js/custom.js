@@ -27,14 +27,11 @@ $('.map-holder').click(function () {
 
 $(".sidebar-menu-toggle").click(function(){    
              if(!$(".sidebar-menu-toggle").hasClass("show-sidebar")){    // make sure sidebar-menu-toggle-anim class doesn't clash with sidebar-menu-toggle-anim-reverse
-                $(".sidebar-menu-toggle").toggleClass('rotated');
-                $(".sidebar-menu-toggle").style.setProperty("color" , "#fff","important");
-
+                $(".sidebar-menu-toggle").toggleClass('rotated').toggleClass("sidebar-btn-color");
              }
              else{
                 debugger;
                 $(".sidebar-menu-toggle").toggleClass('rotated');
                 $(".sidebar-menu-toggle").removeClass("sidebar-btn-color");
-                $(".sidebar-menu-toggle").style.setProperty("color" , "","important");
              }
         });
