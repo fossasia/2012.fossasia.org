@@ -26,13 +26,17 @@ $('.map-holder').click(function () {
 });
 
 $(".sidebar-menu-toggle").click(function(){    
-             if($(".sidebar-menu-toggle").css("marginRight") != "-300px"){
-                $(".sidebar-menu-toggle").removeClass('sidebar-menu-toggle-anim-reverse');  
+             if(!$(".sidebar-menu-toggle").hasClass("show-sidebar")){
                 $(".sidebar-menu-toggle").css("color","#fff");    // make sure sidebar-menu-toggle-anim class doesn't clash with sidebar-menu-toggle-anim-reverse
                 $(".sidebar-menu-toggle").toggleClass('rotated').toggleClass('sidebar-menu-toggle-anim');
+                $(window).click(function(){
+                    if($(".sidebar-menu-toggle").hasClass("show-sidebar")){
+                        $(".sidebar-menu-toggle").removeAttr("color");
+                        $(".sidebar-menu-toggle").toggleClass('rotated').toggleClass('sidebar-menu-toggle-anim-reverse');
+                    }
+                })
              }
              else{
-                $(".sidebar-menu-toggle").removeClass('sidebar-menu-toggle-anim');            // make sure sidebar-menu-toggle-anim-reverse class doesn't clash with sidebar-menu-toggle-anim
                 debugger;
                 $(".sidebar-menu-toggle").removeAttr("color");
                 $(".sidebar-menu-toggle").toggleClass('rotated').toggleClass('sidebar-menu-toggle-anim-reverse');
