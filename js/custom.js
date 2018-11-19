@@ -33,6 +33,7 @@ $(".sidebar-menu-toggle").click(function(){
                     if($(".main-container").hasClass("reveal-sidebar"))
                         $(".sidebar-menu-toggle").toggleClass('rotated');
                         $(".sidebar-menu-toggle").removeClass("sidebar-btn-color");
+                        $(".main-container").removeClass("reveal-sidebar");
                 })
              }
              else{
