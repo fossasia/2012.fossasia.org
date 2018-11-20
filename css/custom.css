@@ -288,8 +288,8 @@ a:focus, a:hover {
   color: #fff !important;
 }
 .sidebar-menu-toggle-on{
-  position: fixed;
-  right: 100px;
-  top: 20px;
+  position: fixed !important;
+  right: 100px !important;
+  top: 20px !important;
   transition-duration: 1s;
 }
