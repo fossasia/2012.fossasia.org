@@ -43,7 +43,6 @@ $(".sidebar-menu-toggle").click(function(){
                     $(".sidebar-menu-toggle").animate({right: "0px"});
                     $(".sidebar-menu-toggle").toggleClass('rotated');
                     $(".sidebar-menu-toggle").removeClass("sidebar-btn-color");
-                    $(".main-container").off("click");
                 });
                 $(window).resize(function(){
                     position = $(".sidebar-menu-toggle").offset();
