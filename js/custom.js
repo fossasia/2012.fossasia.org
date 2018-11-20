@@ -24,12 +24,17 @@ $(document).ready(function () {
 $('.map-holder').click(function () {
     $(this).removeClass('zoom-off');
 });
-
+var position = null ;
+var distance_left = null;;
+var screen_width = null;
 $(".sidebar-menu-toggle").click(function(){    
              if(!$(".main-container").hasClass("reveal-sidebar")){    
                 debugger;
+                position = $(".sidebar-menu-toggle").offset();
+                distance_left = position.left;
+                screen_width = $(window).width();
+                margin_left = screen_width - distance_left + 200 ;
                 $(".sidebar-menu-toggle").toggleClass('rotated').toggleClass("sidebar-btn-color");
-                $(".sidebar-menu-toggle").toggleClass("sidebar-menu-toggle-on");
                 $(".main-container").click(function(){
                         $(".sidebar-menu-toggle").toggleClass('rotated');
                         $(".sidebar-menu-toggle").removeClass("sidebar-btn-color");
@@ -40,6 +45,5 @@ $(".sidebar-menu-toggle").click(function(){
                 debugger;
                 $(".sidebar-menu-toggle").toggleClass('rotated');
                 $(".sidebar-menu-toggle").removeClass("sidebar-btn-color");
-                $(".sidebar-menu-toggle").removeClass("sidebar-menu-toggle-on");
              }
         });
