@@ -34,7 +34,7 @@ $(".sidebar-menu-toggle").click(function(){
                 distance_left = position.left;
                 screen_width = $(window).width();
                 margin_left = "200px";
-                $(".sidebar-menu-toggle").animate({marginLeft: "300"});
+                $(".sidebar-menu-toggle").animate({marginLeft: "300px"});
                 $(".sidebar-menu-toggle").toggleClass('rotated').toggleClass("sidebar-btn-color");
                 $(".main-container").click(function(){
                         $(".sidebar-menu-toggle").toggleClass('rotated');
