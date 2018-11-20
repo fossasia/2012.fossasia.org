@@ -53,7 +53,7 @@ $(".sidebar-menu-toggle").click(function(){
                     margin_left = margin_left.toString();
                     margin_left = "-".concat(margin_left,"px");
                     $(".sidebar-menu-toggle").animate({right: margin_left});
-                })
+                });
 
              }
              else{
