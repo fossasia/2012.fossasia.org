@@ -26,7 +26,9 @@ $('.map-holder').click(function () {
 });
 debugger;
 function myFunc(){
+    debugger;
     $(".main-container").click(function(){
+        debugger;
                         $(".sidebar-menu-toggle").toggleClass('rotated');
                         $(".sidebar-menu-toggle").removeClass("sidebar-btn-color");
                         $(".main-container").removeClass("reveal-sidebar");
@@ -37,11 +39,13 @@ var event = new Event('build');
 var elem = $(".main-container");
 elem.addEventListener('build', myFunc);
 $(".sidebar-menu-toggle").click(function(){    
-             if(!$(".main-container").hasClass("reveal-sidebar")){    // make sure sidebar-menu-toggle-anim class doesn't clash with sidebar-menu-toggle-anim-reverse
+             if(!$(".main-container").hasClass("reveal-sidebar")){    
+                debugger;
                 $(".sidebar-menu-toggle").toggleClass('rotated').toggleClass("sidebar-btn-color");
                 elem.dispatchEvent(event);
              }
              else{
+                debugger;
                 $(".sidebar-menu-toggle").toggleClass('rotated');
                 $(".sidebar-menu-toggle").removeClass("sidebar-btn-color");
                 $(".main-container").removeEventListener(event , myfunc);
