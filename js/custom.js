@@ -26,9 +26,9 @@ $('.map-holder').click(function () {
 });
 var myFunc = function (){
     $(".sidebar-menu-toggle").toggleClass('rotated');
-                        $(".sidebar-menu-toggle").removeClass("sidebar-btn-color");
-                        $(".main-container").removeClass("reveal-sidebar");
-                        $(".main-container").removeEventListener("click" , myFunc);
+    $(".sidebar-menu-toggle").removeClass("sidebar-btn-color");
+    $(".main-container").removeClass("reveal-sidebar");
+    $(".main-container").removeEventListener("click" , myFunc);
 }
 var event = new Event('build');
 var elem = $(".main-container");
