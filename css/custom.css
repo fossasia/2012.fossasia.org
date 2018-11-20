@@ -272,12 +272,6 @@ a:focus, a:hover {
 #sidebar-menu{
   z-index: -1;
 }
-.sidebar-menu-toggle{
-  z-index: 5;
-  position: fixed;
-  top: 16px;
-  right: 65px;
-}
 .sidebar-menu .logo{
   padding-bottom: 12px;
   margin-top: 2px;

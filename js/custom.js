@@ -25,11 +25,17 @@ $('.map-holder').click(function () {
     $(this).removeClass('zoom-off');
 });
 debugger;
-
+var screen_width ;
+var sidebar_btn_coordinates ; 
+var margin_right;
 $(".sidebar-menu-toggle").click(function(){    
              if(!$(".main-container").hasClass("reveal-sidebar")){    
                 debugger;
                 $(".sidebar-menu-toggle").toggleClass('rotated').toggleClass("sidebar-btn-color");
+                screen_width = $(window).width();
+                sidebar_btn_coordinates = document.getElementById('sidebar-menu-toggle').offsetLeft;
+                margin_right = screen_width - sidebar_btn_coordinates + 200 ; 
+                $(".sidebar-menu-toggle").animate({marginRight:"margin_right"});
                 $(".main-container").click(function(){
                         $(".sidebar-menu-toggle").toggleClass('rotated');
                         $(".sidebar-menu-toggle").removeClass("sidebar-btn-color");
