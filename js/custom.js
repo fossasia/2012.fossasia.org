@@ -24,17 +24,18 @@ $(document).ready(function () {
 $('.map-holder').click(function () {
     $(this).removeClass('zoom-off');
 });
+debugger;
 function myFunc(){
     $(".main-container").click(function(){
                         $(".sidebar-menu-toggle").toggleClass('rotated');
                         $(".sidebar-menu-toggle").removeClass("sidebar-btn-color");
                         $(".main-container").removeClass("reveal-sidebar");
-                        $(".main-container").removeEventListener("click" , myfunc, false);
+                        $(".main-container").removeEventListener("click" , myfunc);
                 });
 }
 var event = new Event('build');
 var elem = $(".main-container");
-elem.addEventListener('build', myFunc, false);
+elem.addEventListener('build', myFunc);
 $(".sidebar-menu-toggle").click(function(){    
              if(!$(".main-container").hasClass("reveal-sidebar")){    // make sure sidebar-menu-toggle-anim class doesn't clash with sidebar-menu-toggle-anim-reverse
                 $(".sidebar-menu-toggle").toggleClass('rotated').toggleClass("sidebar-btn-color");
@@ -43,6 +44,6 @@ $(".sidebar-menu-toggle").click(function(){
              else{
                 $(".sidebar-menu-toggle").toggleClass('rotated');
                 $(".sidebar-menu-toggle").removeClass("sidebar-btn-color");
-                $(".main-container").removeEventListener(event , myfunc, false);
+                $(".main-container").removeEventListener(event , myfunc);
              }
         });
