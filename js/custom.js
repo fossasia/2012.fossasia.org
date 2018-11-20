@@ -48,6 +48,7 @@ $(".sidebar-menu-toggle").click(function(){
              else{
                 debugger;
                 $(".sidebar-menu-toggle").toggleClass('rotated');
+                $(".sidebar-menu-toggle").animate({right: "0px"});
                 $(".sidebar-menu-toggle").removeClass("sidebar-btn-color");
              }
         });
