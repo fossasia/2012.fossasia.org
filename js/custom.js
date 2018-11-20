@@ -28,7 +28,8 @@ $('.map-holder').click(function () {
 $(".sidebar-menu-toggle").click(function(){    
              if(!$(".main-container").hasClass("reveal-sidebar")){    
                 debugger;
-                $(".sidebar-menu-toggle").toggleClass('rotated').toggleClass("sidebar-btn-color").toggleClass(".sidebar-menu-toggle-on");
+                $(".sidebar-menu-toggle").toggleClass('rotated').toggleClass("sidebar-btn-color");
+                $(".sidebar-menu-toggle").toggleClass(".sidebar-menu-toggle-on");
                 $(".main-container").click(function(){
                         $(".sidebar-menu-toggle").toggleClass('rotated');
                         $(".sidebar-menu-toggle").removeClass("sidebar-btn-color");
