@@ -38,6 +38,6 @@ $(".sidebar-menu-toggle").click(function(){
              else{
                 debugger;
                 $(".sidebar-menu-toggle").toggleClass('rotated');
-                $(".sidebar-menu-toggle").removeClass("sidebar-btn-color").removeClass("sidebar-menu-toggle-on");
+                $(".sidebar-menu-toggle").removeClass("sidebar-btn-color").removeClass("sidebar-menu-toggle-off");
              }
         });
