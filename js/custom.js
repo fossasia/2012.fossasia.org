@@ -37,7 +37,7 @@ function myFunc(){
 }
 var event = new Event('build');
 var elem = $(".main-container");
-elem.addEventListener('build', myFunc(),true);
+elem.addEventListener('build', myFunc(e),true);
 $(".sidebar-menu-toggle").click(function(){    
              if(!$(".main-container").hasClass("reveal-sidebar")){    
                 debugger;
