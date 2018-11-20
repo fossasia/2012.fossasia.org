@@ -35,8 +35,7 @@ $(".sidebar-menu-toggle").click(function(){
                 screen_width = $(window).width();
                 margin_left = screen_width - distance_left + 200 ;
                 margin_left = margin_left.toString();
-                margin_left = "-".concat(margin_left);
-                margin_left = margin_left.concat("px");
+                margin_left = "-".concat(margin_left,"px");
                 $(".sidebar-menu-toggle").animate({right: margin_left});
                 $(".sidebar-menu-toggle").toggleClass('rotated').toggleClass("sidebar-btn-color");
                 $(".main-container").click(function(){
@@ -46,6 +45,16 @@ $(".sidebar-menu-toggle").click(function(){
                     $(".sidebar-menu-toggle").removeClass("sidebar-btn-color");
                     $(".main-container").off("click");
                 });
+                $(window).resize(function(){
+                    position = $(".sidebar-menu-toggle").offset();
+                    distance_left = position.left;
+                    screen_width = $(window).width();
+                    margin_left = screen_width - distance_left + 200 ;
+                    margin_left = margin_left.toString();
+                    margin_left = "-".concat(margin_left,"px");
+                    $(".sidebar-menu-toggle").animate({right: margin_left});
+                })
+
              }
              else{
                 debugger;
