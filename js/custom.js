@@ -33,7 +33,7 @@ $(".sidebar-menu-toggle").click(function(){
                 debugger;
                 $(".sidebar-menu-toggle").toggleClass('rotated').toggleClass("sidebar-btn-color");
                 screen_width = $(window).width();
-                sidebar_btn_coordinates = document.getElementById('sidebar-menu-toggle').offsetLeft;
+                sidebar_btn_coordinates = document.getElementsByClassName('sidebar-menu-toggle').offsetLeft;
                 margin_right = screen_width - sidebar_btn_coordinates + 200 ; 
                 $(".sidebar-menu-toggle").animate({marginRight:"margin_right"});
                 $(".main-container").click(function(){
