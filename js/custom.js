@@ -28,14 +28,14 @@ debugger;
 
 var event = new Event('build');
 var elem = $(".main-container");
-elem.addEventListener('build', function(){
+elem.addEventListener('build', function(e){
     $(".main-container").click(function(){
                         $(".sidebar-menu-toggle").toggleClass('rotated');
                         $(".sidebar-menu-toggle").removeClass("sidebar-btn-color");
                         $(".main-container").removeClass("reveal-sidebar");
                         $(".main-container").removeEventListener("click" , myfunc());
                 });
-});
+},true);
 $(".sidebar-menu-toggle").click(function(){    
              if(!$(".main-container").hasClass("reveal-sidebar")){    
                 debugger;
