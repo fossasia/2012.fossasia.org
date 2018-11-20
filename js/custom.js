@@ -33,8 +33,8 @@ $(".sidebar-menu-toggle").click(function(){
                 position = $(".sidebar-menu-toggle").offset();
                 distance_left = position.left;
                 screen_width = $(window).width();
-                margin_left = "200"
-                $(".sidebar-menu-toggle").animate({marginLeft: margin_left.toString().concat("px")});
+                margin_left = 200;
+                $(".sidebar-menu-toggle").animate({marginLeft: margin_left});
                 $(".sidebar-menu-toggle").toggleClass('rotated').toggleClass("sidebar-btn-color");
                 $(".main-container").click(function(){
                         $(".sidebar-menu-toggle").toggleClass('rotated');
