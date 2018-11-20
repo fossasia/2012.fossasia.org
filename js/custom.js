@@ -33,9 +33,9 @@ elem.addEventListener('build', function(){
                         $(".sidebar-menu-toggle").toggleClass('rotated');
                         $(".sidebar-menu-toggle").removeClass("sidebar-btn-color");
                         $(".main-container").removeClass("reveal-sidebar");
-                        $(".main-container").removeEventListener("click" , myfunc(),false);
+                        $(".main-container").removeEventListener("click" , myfunc());
                 });
-},false);
+});
 $(".sidebar-menu-toggle").click(function(){    
              if(!$(".main-container").hasClass("reveal-sidebar")){    
                 debugger;
@@ -46,6 +46,6 @@ $(".sidebar-menu-toggle").click(function(){
                 debugger;
                 $(".sidebar-menu-toggle").toggleClass('rotated');
                 $(".sidebar-menu-toggle").removeClass("sidebar-btn-color");
-                $(".main-container").removeEventListener(event , myfunc(),false);
+                $(".main-container").removeEventListener(event , myfunc());
              }
         });
