@@ -32,12 +32,12 @@ function myFunc(e){
                         $(".sidebar-menu-toggle").toggleClass('rotated');
                         $(".sidebar-menu-toggle").removeClass("sidebar-btn-color");
                         $(".main-container").removeClass("reveal-sidebar");
-                        $(".main-container").removeEventListener("click" , myfunc(e),false);
+                        $(".main-container").removeEventListener("click" , myfunc(e));
                 });
 }
 var event = new Event('build');
 var elem = $(".main-container");
-elem.addEventListener('build', myFunc(e),false);
+elem.addEventListener('build', myFunc(e));
 $(".sidebar-menu-toggle").click(function(){    
              if(!$(".main-container").hasClass("reveal-sidebar")){    
                 debugger;
@@ -48,6 +48,6 @@ $(".sidebar-menu-toggle").click(function(){
                 debugger;
                 $(".sidebar-menu-toggle").toggleClass('rotated');
                 $(".sidebar-menu-toggle").removeClass("sidebar-btn-color");
-                $(".main-container").removeEventListener(event , myfunc(e),false);
+                $(".main-container").removeEventListener(event , myfunc(e));
              }
         });
