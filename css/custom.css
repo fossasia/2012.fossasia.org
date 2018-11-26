@@ -249,7 +249,7 @@ a:focus, a:hover {
     margin: auto;
     width: auto;
     text-align: center;
-  }	
+  }
 
   nav .logo {
     top: -18px;
@@ -268,4 +268,14 @@ a:focus, a:hover {
 .btn-hollow-red:hover {
     color: #fff !important;
     background: #e12b00 !important;
+}
+
+nav .logo {
+  top: 0;
+}
+
+@media (max-width: 991px) and (min-width: 769px){
+  nav .logo {
+    top: 0;
+  }
 }
