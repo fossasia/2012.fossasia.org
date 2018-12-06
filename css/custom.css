@@ -257,6 +257,12 @@ a:focus, a:hover {
   .menu li {
     margin-right: 27px;
   }
+  nav .logo {
+    top: 0;
+  }
+  .color-blocks a{
+    padding: 10px 0px 10px 0px;
+  }
 }
 
 .btn-hollow-red {
@@ -274,12 +280,6 @@ nav .logo {
   top: 0;
 }
 
-@media (max-width: 991px) and (min-width: 769px){
-  nav .logo {
-    top: 0;
-  }
-}
-
 #more {display: none;}
 
 #more2 {display: none;}
@@ -287,3 +287,4 @@ nav .logo {
 #more3 {display: none;}
 
 #more4 {display: none;}
+
