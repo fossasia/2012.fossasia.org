@@ -26,9 +26,9 @@ $('.map-holder').click(function () {
 });
 
 function readMore(number) {
-  var dots = document.getElementById("dots${number}");
-  var moreText = document.getElementById("more${number}");
-  var btnText = document.getElementById("myBtn${number}");
+  var dots = document.getElementById("dots ${number}");
+  var moreText = document.getElementById("more ${number}");
+  var btnText = document.getElementById("myBtn ${number}");
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
