@@ -536,7 +536,7 @@ nav .container {
   color: #fff;
   display: inline-block;
   padding-bottom: 24px;
-  border-bottom: 2px solid rgba(0, 0, 0, 0);
+  border-bottom: 2px solid transparent;
   transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
@@ -649,7 +649,7 @@ nav .container {
   display: none;
 }
 .sticky-nav .menu li a:hover {
-  border-color: rgba(0, 0, 0, 0);
+  border-color: #333;
 }
 .sticky-nav .sidebar-menu-toggle,
 .sticky-nav .mobile-menu-toggle {
@@ -826,6 +826,12 @@ nav .container {
     color: #333333 !important;
     padding-bottom: 0px;
   }
+  nav .has-dropdown > a{
+    pointer-events: none;
+  }
+  .menu > li > a:hover {
+    border-bottom: 2px solid #333;
+  }
   nav .logo {
     max-width: 90px;
     top: -2px;
@@ -864,8 +870,9 @@ nav .container {
     position: relative;
     display: none;
     height: 600px; 
-    margin-top: 5px;
+    margin-top: 20px;
     padding-bottom: 8px;
+    background-color: transparent !important;
  }
   .has-dropdown:hover .nav-dropdown {
     display: block;
