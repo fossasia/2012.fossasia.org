@@ -1,9 +1,7 @@
 $(document).ready(function () {
-
     var url = 'https://blog.fossasia.org/feed/?format=xml';
     feeds(url);
 });
-
 
 function feeds(url) {
     var blog = $("#result");
@@ -12,14 +10,11 @@ function feeds(url) {
         if (result.error) {
             console.log(result.error);
         } else {
-
             var entries = result.feed.entries;
             html = [];
             for (var x = 0; x < 10; x++) {
-
                 var count = 0;
                 var text = entries[x];
-
                 var title = text.title;
                 if (x === 0) {
                     html.push("<div class='item active'><h1>" + title + "</h1>");
@@ -34,17 +29,8 @@ function feeds(url) {
                 summary = text.summary
                 html.push("<hr><p class ='summary'>" + summary + "<p>");
                 html.push("<span class='date'> Posted On - " + (date) + "</span></div>");
-
-
-
-            }
+             }
             blog.html(html.join(""));
-
-
-
-
-        }
-
-    });
-
-}
+          }
+      });
+  }
