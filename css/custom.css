@@ -280,3 +280,8 @@ nav .logo {
   top: 0;
 }
 
+#more1, #more2, #more3, #more4 {display: none;}
+
+.designer_text{
+  font-weight: bold;
+}
